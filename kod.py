@@ -148,25 +148,26 @@ else:
 
 suma = 0 
 if (Płeć == 'Kobiety' or Płeć == 'Wszyscy') and 1 in Wiek_num:
-    suma += 1812738
+    suma += 1803854
 if (Płeć == 'Mężczyźni' or Płeć == 'Wszyscy') and 1 in Wiek_num:
-    suma += 1893705
+    suma += 1884424
 if (Płeć == 'Kobiety' or Płeć == 'Wszyscy') and 2 in Wiek_num:
-    suma += 2387225
+    suma += 2375525
 if (Płeć == 'Mężczyźni' or Płeć == 'Wszyscy') and 2 in Wiek_num:
-    suma += 2440240
+    suma += 2428281
 if (Płeć == 'Kobiety' or Płeć == 'Wszyscy') and 3 in Wiek_num:
-    suma += 3054633
+    suma += 3039663
 if (Płeć == 'Mężczyźni' or Płeć == 'Wszyscy') and 3 in Wiek_num:
-    suma += 3054845
+    suma += 3039874
 if (Płeć == 'Kobiety' or Płeć == 'Wszyscy') and 4 in Wiek_num:
-    suma += 3762817
+    suma += 3744376
 if (Płeć == 'Mężczyźni' or Płeć == 'Wszyscy') and 4 in Wiek_num:
-    suma += 3596251
+    suma += 3578626
 if (Płeć == 'Kobiety' or Płeć == 'Wszyscy') and 5 in Wiek_num:
-    suma += 4205663
+    suma += 4185051
 if (Płeć == 'Mężczyźni' or Płeć == 'Wszyscy') and 5 in Wiek_num:
-    suma += 3337109
+    suma += 3320754
+
 
 if Grupa == 'Dochód gospodarstwa ponad 5 tys.':
     suma = suma * 0.42544612
