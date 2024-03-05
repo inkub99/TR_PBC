@@ -148,7 +148,7 @@ else:
 
 suma = 0 
 if (Płeć == 'Kobiety' or Płeć == 'Wszyscy') and 1 in Wiek_num:
-    suma += 1804099
+    suma += 1804199
 if (Płeć == 'Mężczyźni' or Płeć == 'Wszyscy') and 1 in Wiek_num:
     suma += 1884668
 if (Płeć == 'Kobiety' or Płeć == 'Wszyscy') and 2 in Wiek_num:
