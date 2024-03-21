@@ -283,7 +283,7 @@ st.markdown("""<div style="font-size:12px">Fale: 1-12/2023</div>""", unsafe_allo
 
 
 st.markdown("""<div style="font-size:12px">Dane CCS: Druk, E-wydania, Współczytelnictwo – Badanie PBC „Zanagażowanie w reklamę” ,
-www, www PC, www mobile – Realusers (RU) PBI/Gemius</div>""", unsafe_allow_html=True)
+www, www PC, www mobile – Real Users (RU) PBI/Gemius</div>""", unsafe_allow_html=True)
             
 st.markdown(f"""<div style="font-size:12px">{tekst}</div>""", unsafe_allow_html=True)
 
