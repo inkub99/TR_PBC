@@ -15,20 +15,25 @@ st.set_page_config(
 pd.set_option('display.float_format', '{:.0f}'.format)
 
 
-df = pd.read_excel('TBR360_g.xlsx')
+df = pd.read_csv('TR_12m.csv', sep = ";", decimal = ",")
+grupy = pd.read_csv('GRUPYTR.csv', sep = ";", decimal = ",")
+grupy['W'] = grupy['W'].fillna(9).astype('int')
+populacja = pd.read_csv('POPULACJA_TR.csv')
+
 tematyka = pd.read_excel('kat.xlsx')
 
 tematyka_lista = tematyka['kat'].unique()
 wskaźniki_lista = ['Druk i E-wydania', 'www PC', 'www Mobile', 'www', 'Total Reach 360°']
-miesiące_lista = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 strony = pd.read_excel('strony.xlsx')
 tematyka_legenda_dict = dict(zip(strony['Pismo'], strony['Strona']))
 wydawca_legenda_dict = dict(zip(tematyka['tytuł'], tematyka['wydawca']))
 
-st.markdown("<h1 style='margin-top: -80px; text-align: center;'>Total Reach 360°</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='margin-top: -70px; text-align: center;'>Total Reach 360°</h1>", unsafe_allow_html=True)
 
-selected_miesiace = [341,342,343,344,345,346,347,348,349,350,351,352]
+selected_miesiace = [344,345,346,347,348,349,350,351,352,353,354,355]
+
+df = df[df['WAVE'].isin(selected_miesiace)]
 
 Płeć = st.radio("Wybierz płeć:", ['Wszyscy', 'Kobiety', 'Mężczyźni'], horizontal=True, index =0)
 
@@ -84,44 +89,49 @@ else:
 wyniki = pd.DataFrame()
 wyniki_cal = pd.DataFrame()
 
+df_g = df.copy()
+
 for i in selected_tematyki:
     pisma_lista = tematyka[tematyka['kat'] == i]['tytuł'].to_list()
     for j in pisma_lista:
         for k in wskaźniki_lista:
+            if k!='Druk i E-wydania':
+                k_pom = 'www'
+            else:
+                k_pom = k
             if k != 'Total Reach 360°':
-                df_g = df.copy()
-                if Płeć == 'Kobiety':
-                    df_g = df_g[df_g['P']=='K']
-                if Płeć == 'Mężczyźni':
-                    df_g = df_g[df_g['P']=='M']
+                wyniki.loc[j, k] = df_g[(df_g['tytuł'] == j) & (df_g['WSKAŹNIK'] == k_pom) & (df_g['WAVE'].between(selected_miesiace[0], selected_miesiace[-1]))]['WYNIK'].mean()
                 wartosci_numeryczne = {'15-24': 1, '25-34': 2, '35-44': 3, '45-59': 4, '60-75': 5}
                 Wiek_num = [wartosci_numeryczne[grupa] for grupa in Wiek]
-                df_g = df_g[df_g['W'].isin(Wiek_num)]
-               
-                wyniki.loc[j, k] = df_g[(df_g['tytuł'] == j) & (df_g['WSKAŹNIK'] == k) & (df_g['WAVE'].between(selected_miesiace[0], selected_miesiace[-1]))]['WYNIK'].sum()
+                if Płeć == 'Kobiety':
+                    wyniki.loc[j, k] = wyniki.loc[j, k] * grupy[(grupy['tytuł'] == j) & (grupy['WSKAŹNIK'] == k_pom) & (grupy['P'] == 'K') & (grupy['P'] == 'K') & (grupy['W'].isin(Wiek_num))]['WYNIK'].sum()
+                elif Płeć == 'Mężczyźni':
+                    wyniki.loc[j, k] = wyniki.loc[j, k] * grupy[(grupy['tytuł'] == j) & (grupy['WSKAŹNIK'] == k_pom) & (grupy['P'] == 'M') & (grupy['W'].isin(Wiek_num))]['WYNIK'].sum()
+                else:
+                    wyniki.loc[j, k] = wyniki.loc[j, k] * grupy[(grupy['tytuł'] == j) & (grupy['WSKAŹNIK'] == k_pom) & (grupy['W'].isin(Wiek_num))]['WYNIK'].sum()
                 if Grupa == 'Dochód gospodarstwa ponad 5 tys.':
                     if k == 'Druk i E-wydania':
-                        wyniki.loc[j, k] = wyniki.loc[j, k] * float(df[(df['tytuł'] == j) & (df['WSKAŹNIK'] == 'w1_druk')]['WYNIK'])
+                        wyniki.loc[j, k] = wyniki.loc[j, k] * float(grupy[(grupy['tytuł'] == j) & (grupy['G'] == 1) & (grupy['WSKAŹNIK'] == 'Druk i E-wydania')]['WYNIK'])
                     else:
-                        wyniki.loc[j, k] = wyniki.loc[j, k] * float(df[(df['tytuł'] == j) & (df['WSKAŹNIK'] == 'w1_www')]['WYNIK']) 
+                        wyniki.loc[j, k] = wyniki.loc[j, k] * float(grupy[(grupy['tytuł'] == j) & (grupy['G'] == 1) & (grupy['WSKAŹNIK'] == 'www')]['WYNIK'])
                 if Grupa == 'Dochód ponad 2 tys.':
                     if k == 'Druk i E-wydania':
-                        wyniki.loc[j, k] = wyniki.loc[j, k] * float(df[(df['tytuł'] == j) & (df['WSKAŹNIK'] == 'w2_druk')]['WYNIK']) 
+                        wyniki.loc[j, k] = wyniki.loc[j, k] * float(grupy[(grupy['tytuł'] == j) & (grupy['G'] == 2) & (grupy['WSKAŹNIK'] == 'Druk i E-wydania')]['WYNIK'])
                     else:
-                        wyniki.loc[j, k] = wyniki.loc[j, k] * float(df[(df['tytuł'] == j) & (df['WSKAŹNIK'] == 'w2_www')]['WYNIK']) 
+                        wyniki.loc[j, k] = wyniki.loc[j, k] * float(grupy[(grupy['tytuł'] == j) & (grupy['G'] == 2) & (grupy['WSKAŹNIK'] == 'www')]['WYNIK'])
                 if Grupa == 'Mieszkańcy miast powyżej 50 tys.':
                     if k == 'Druk i E-wydania':
-                        wyniki.loc[j, k] = wyniki.loc[j, k] * float(df[(df['tytuł'] == j) & (df['WSKAŹNIK'] == 'w3_druk')]['WYNIK']) 
+                        wyniki.loc[j, k] = wyniki.loc[j, k] * float(grupy[(grupy['tytuł'] == j) & (grupy['G'] == 3) & (grupy['WSKAŹNIK'] == 'Druk i E-wydania')]['WYNIK'])
                     else:
-                        wyniki.loc[j, k] = wyniki.loc[j, k] * float(df[(df['tytuł'] == j) & (df['WSKAŹNIK'] == 'w3_www')]['WYNIK']) 
+                        wyniki.loc[j, k] = wyniki.loc[j, k] * float(grupy[(grupy['tytuł'] == j) & (grupy['G'] == 3) & (grupy['WSKAŹNIK'] == 'www')]['WYNIK'])
                 if Grupa == 'Osoby z dziećmi w wieku 0-14':
                     if k == 'Druk i E-wydania':
-                        wyniki.loc[j, k] = wyniki.loc[j, k] * float(df[(df['tytuł'] == j) & (df['WSKAŹNIK'] == 'w4_druk')]['WYNIK']) 
+                        wyniki.loc[j, k] = wyniki.loc[j, k] * float(grupy[(grupy['tytuł'] == j) & (grupy['G'] == 4) & (grupy['WSKAŹNIK'] == 'Druk i E-wydania')]['WYNIK'])
                     else:
-                        wyniki.loc[j, k] = wyniki.loc[j, k] * float(df[(df['tytuł'] == j) & (df['WSKAŹNIK'] == 'w4_www')]['WYNIK']) 
+                        wyniki.loc[j, k] = wyniki.loc[j, k] * float(grupy[(grupy['tytuł'] == j) & (grupy['G'] == 4) & (grupy['WSKAŹNIK'] == 'www')]['WYNIK'])
 
                                             
-                wyniki_cal.loc[j, k] = df[(df['tytuł'] == j) & (df['WSKAŹNIK'] == k) & (df['WAVE'].between(selected_miesiace[0], selected_miesiace[-1]))]['WYNIK'].sum()
+                wyniki_cal.loc[j, k] = df[(df['tytuł'] == j) & (df['WSKAŹNIK'] == k) & (df['WAVE'].between(selected_miesiace[0], selected_miesiace[-1]))]['WYNIK'].mean()
             else:
                 wyniki.loc[j, k] = max(wyniki.loc[j, 'Druk i E-wydania'], (1 - float(df[(df['tytuł'] == j) & (df['WSKAŹNIK'] == 'współczytelnictwo')]['WYNIK'])) * wyniki.loc[j, 'Druk i E-wydania'] + wyniki.loc[j, 'www'])
                 wyniki_cal.loc[j, k] = max(wyniki_cal.loc[j, 'Druk i E-wydania'], (1 - float(df[(df['tytuł'] == j) & (df['WSKAŹNIK'] == 'współczytelnictwo')]['WYNIK'])) * wyniki_cal.loc[j, 'Druk i E-wydania'] + wyniki_cal.loc[j, 'www'])
@@ -253,8 +263,7 @@ else:
     wyniki_sformatowane_styled = wyniki_sformatowane.style.set_table_styles([
     {'selector': 'table', 'props': [('text-align', 'center')]},
     {'selector': 'th', 'props': [('text-align', 'center')]},
-    {'selector': 'td', 'props': [('text-align', 'center')]},
-    {'selector': 'th.col0, td.col0', 'props': [('text-align', 'left')]}  # Wyrównaj pierwszą kolumnę do lewej
+    {'selector': 'td', 'props': [('text-align', 'center')]}
 ])
 
 def make_clickable(tytul):
@@ -268,7 +277,25 @@ html_table = wyniki_sformatowane_styled.to_html()
 
 html_table = f"<div style='margin: auto;'>{html_table}</div>"
 
-st.markdown(html_table, unsafe_allow_html=True)
+styled_table = f"""
+<style>
+    table {{
+        width: 100%;
+        margin: auto;
+        overflow-x: auto;
+    }}
+    th, td {{
+        padding: 10px;
+        text-align: left;
+        border: 1px solid #ddd;
+        white-space: nowrap;  /* Unikaj przerywania tekstu na wielu linijkach */
+    }}
+</style>
+{html_table}
+"""
+
+# Wyświetl sformatowaną tabelę
+st.markdown(styled_table, unsafe_allow_html=True)
 
 tekst = 'Badane marki:'
 for pismo in wyniki.index.unique():
@@ -279,7 +306,7 @@ for pismo in wyniki.index.unique():
 
 st.markdown(f"""<div style="font-size:12px">Statystyki: Zasięg CCS i Estymacja na populację, Populacja w wybranej grupie celowej =  {suma}</div>""", unsafe_allow_html=True)
 
-st.markdown("""<div style="font-size:12px">Fale: 1-12/2023</div>""", unsafe_allow_html=True)
+st.markdown("""<div style="font-size:12px">Fale: 4/2023-3/2024</div>""", unsafe_allow_html=True)
 
 
 st.markdown("""<div style="font-size:12px">Dane CCS: Druk, E-wydania, Współczytelnictwo – Badanie PBC „Zanagażowanie w reklamę” ,

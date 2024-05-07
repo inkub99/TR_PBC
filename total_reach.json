@@ -1,0 +1,151 @@
+{
+		"Plik": "Z:\\PrePla\\konwersja PBC Planner\\AKTUALNE_Pliki do konwersji zaangazowanie i historyczne nowe\\TR_12m.csv",
+		"PlikGrupCelowych": "Z:\\PrePla\\konwersja PBC Planner\\AKTUALNE_Pliki do konwersji zaangazowanie i historyczne nowe\\GRUPY TR.csv",
+		"PlikPopulacji": "Z:\\PrePla\\konwersja PBC Planner\\AKTUALNE_Pliki do konwersji zaangazowanie i historyczne nowe\\POPULACJA_TR.csv",
+	  "Wskazniki": [
+		{
+			"id": 1,
+		  "nazwaPlik": "Druk i E-wydania",
+		  "nazwaPl": "Druk i E-wydania",
+		  "nazwaEn": "Druk i E-wydania",
+		  "opisPl": "Druk i E-wydania",
+		  "opisEn": "Druk i E-wydania"
+		},
+		{
+			"id": 2,
+		  "nazwaPlik": "www Mobile",
+		  "nazwaPl": "www Mobile",
+		  "nazwaEn": "www Mobile",
+		  "opisPl": "www Mobile",
+		  "opisEn": "www Mobile"
+		},
+		{
+			"id": 3,
+		  "nazwaPlik": "www PC",
+		  "nazwaPl": "www PC",
+		  "nazwaEn": "www PC",
+		  "opisPl": "www PC",
+		  "opisEn": "www PC"
+		},
+		{
+			"id": 4,
+		  "nazwaPl": "Total Reach 360˚",
+		  "nazwaEn": "Total Reach 360˚",
+		  "opisPl": "Total Reach 360˚",
+		  "opisEn": "Total Reach 360˚"
+		},
+		{
+			"id": 5,
+		  "nazwaPlik": "www",
+		  "nazwaPl": "www",
+		  "nazwaEn": "www",
+		  "opisPl": "www",
+		  "opisEn": "www"
+		},
+		{
+			"id": 6,
+		  "nazwaPlik": "współczytelnictwo",
+		  "nazwaPl": "współczytelnictwo",
+		  "nazwaEn": "współczytelnictwo",
+		  "opisPl": "współczytelnictwo",
+		  "opisEn": "współczytelnictwo",
+		  "wspolczytelnictwo": true
+		},
+		
+		],
+		"ZmienneGrupyCelowej": [
+			{
+				"Id": 1,
+				"Nazwa": "p",
+				"Etykieta": "Płeć",
+				"Etykieta2": "Płeć",
+				"Porzadek": 0,
+				"Wartosci": [
+					{
+						"Wartosc": "K",
+						"Etykieta": "Kobieta",
+						"Etykieta2": "Kobieta",
+						"Porzadek": 0
+					},
+					{
+						"Wartosc": "M",
+						"Etykieta": "Mężczyzna",
+						"Etykieta2": "Mężczyzna",
+						"Porzadek": 1
+					}
+				]
+			},
+			{
+				"Id": 2,
+				"Nazwa": "w",
+				"Etykieta": "Wiek",
+				"Etykieta2": "Wiek",
+				"Porzadek": 1,
+				"Wartosci": [
+					{
+						"Wartosc": "1",
+						"Etykieta": "15-24",
+						"Etykieta2": "15-24",
+						"Porzadek": 0
+					},
+					{
+						"Wartosc": "2",
+						"Etykieta": "25-34",
+						"Etykieta2": "25-34",
+						"Porzadek": 1
+					},
+					{
+						"Wartosc": "3",
+						"Etykieta": "35-44",
+						"Etykieta2": "35-44",
+						"Porzadek": 2
+					},
+					{
+						"Wartosc": "4",
+						"Etykieta": "45-59",
+						"Etykieta2": "45-59",
+						"Porzadek": 3
+					},
+					{
+						"Wartosc": "5",
+						"Etykieta": "60-75",
+						"Etykieta2": "60-75",
+						"Porzadek": 4
+					}
+				]
+			},
+			{
+				"Id": 3,
+				"Nazwa": "g",
+				"Etykieta": "Dochód",
+				"Etykieta2": "Dochód",
+				"Porzadek": 2,
+				"Wartosci": [
+					{
+						"Wartosc": "1",
+						"Etykieta": "Dochód gospodarstwa ponad 5 tys.",
+						"Etykieta2": "Dochód gospodarstwa ponad 5 tys.",
+						"Porzadek": 0
+					},
+					{
+						"Wartosc": "2",
+						"Etykieta": "Dochód ponad 2 tys.",
+						"Etykieta2": "Dochód ponad 2 tys.",
+						"Porzadek": 1
+					},
+					{
+						"Wartosc": "3",
+						"Etykieta": "Mieszkańcy miast powyżej 50 tys.",
+						"Etykieta2": "Mieszkańcy miast powyżej 50 tys.",
+						"Porzadek": 2
+					},
+					{
+						"Wartosc": "4",
+						"Etykieta": "Osoby z dziećmi w wieku 0-14",
+						"Etykieta2": "Osoby z dziećmi w wieku 0-14",
+						"Porzadek": 3
+					}
+				]
+			}
+		]
+}
