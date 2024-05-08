@@ -100,7 +100,7 @@ for i in selected_tematyki:
             else:
                 k_pom = k
             if k != 'Total Reach 360°':
-                wyniki.loc[j, k] = df_g[(df_g['tytuł'] == j) & (df_g['WSKAŹNIK'] == k_pom) & (df_g['WAVE'].between(selected_miesiace[0], selected_miesiace[-1]))]['WYNIK'].mean()
+                wyniki.loc[j, k] = df_g[(df_g['tytuł'] == j) & (df_g['WSKAŹNIK'] == k) & (df_g['WAVE'].between(selected_miesiace[0], selected_miesiace[-1]))]['WYNIK'].mean()
                 wartosci_numeryczne = {'15-24': 1, '25-34': 2, '35-44': 3, '45-59': 4, '60-75': 5}
                 Wiek_num = [wartosci_numeryczne[grupa] for grupa in Wiek]
                 if Płeć == 'Kobiety':
