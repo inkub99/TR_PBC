@@ -15,7 +15,7 @@ st.set_page_config(
 pd.set_option('display.float_format', '{:.0f}'.format)
 
 
-df = pd.read_csv('TR_12m.csv', sep = ";", decimal = ".")
+df = pd.read_excel('TR_12m.', sep = ";", decimal = ".")
 grupy = pd.read_csv('GRUPYTR.csv', sep = ";", decimal = ",")
 grupy['W'] = grupy['W'].fillna(9).astype('int')
 populacja = pd.read_csv('POPULACJA_TR.csv')
