@@ -344,6 +344,7 @@ for wiersz in range(6, 81):
         except:
             pass
 
+
 plik_wyjsciowy = f"TR_{datetime.now().strftime('%d.%m.%Y')}.xlsx"
 arkusz.save(plik_wyjsciowy)
 
