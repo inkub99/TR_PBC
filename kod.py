@@ -15,7 +15,7 @@ st.set_page_config(
 pd.set_option('display.float_format', '{:.0f}'.format)
 
 
-df = pd.read_csv('TR_12m.csv', sep = ";", decimal = ",")
+df = pd.read_csv('TR_12m.csv', sep = ";", decimal = ".")
 grupy = pd.read_csv('GRUPYTR.csv', sep = ";", decimal = ",")
 grupy['W'] = grupy['W'].fillna(9).astype('int')
 populacja = pd.read_csv('POPULACJA_TR.csv')
@@ -133,9 +133,9 @@ for i in selected_tematyki:
                                             
                 wyniki_cal.loc[j, k] = df[(df['tytuł'] == j) & (df['WSKAŹNIK'] == k) & (df['WAVE'].between(selected_miesiace[0], selected_miesiace[-1]))]['WYNIK'].mean()
             else:
-                wyniki.loc[j, k] = min(int(wyniki.loc[j, 'Druk i E-wydania']), (1 - float(df.loc[(df['tytuł'] == j) & (df['WSKAŹNIK'] == 'współczytelnictwo'), 'WYNIK'].iloc[0]/100)) * wyniki.loc[j, 'Druk i E-wydania'] + wyniki.loc[j, 'www']) if not df.loc[(df['tytuł'] == j) & (df['WSKAŹNIK'] == 'współczytelnictwo'), 'WYNIK'].empty else wyniki.loc[j, 'Druk i E-wydania']
+                wyniki.loc[j, k] = max(int(wyniki.loc[j, 'Druk i E-wydania']), (1 - float(df.loc[(df['tytuł'] == j) & (df['WSKAŹNIK'] == 'współczytelnictwo'), 'WYNIK'].iloc[0]/100)) * wyniki.loc[j, 'Druk i E-wydania'] + wyniki.loc[j, 'www']) if not df.loc[(df['tytuł'] == j) & (df['WSKAŹNIK'] == 'współczytelnictwo'), 'WYNIK'].empty else wyniki.loc[j, 'Druk i E-wydania']
 
-                wyniki_cal.loc[j, k] = min(int(wyniki_cal.loc[j, 'Druk i E-wydania']), (1 - float(df.loc[(df['tytuł'] == j) & (df['WSKAŹNIK'] == 'współczytelnictwo'), 'WYNIK'].iloc[0]/100) ) * wyniki_cal.loc[j, 'Druk i E-wydania'] + wyniki_cal.loc[j, 'www']) if not df.loc[(df['tytuł'] == j) & (df['WSKAŹNIK'] == 'współczytelnictwo'), 'WYNIK'].empty else wyniki_cal.loc[j, 'Druk i E-wydania']
+                wyniki_cal.loc[j, k] = max(int(wyniki_cal.loc[j, 'Druk i E-wydania']), (1 - float(df.loc[(df['tytuł'] == j) & (df['WSKAŹNIK'] == 'współczytelnictwo'), 'WYNIK'].iloc[0]/100) ) * wyniki_cal.loc[j, 'Druk i E-wydania'] + wyniki_cal.loc[j, 'www']) if not df.loc[(df['tytuł'] == j) & (df['WSKAŹNIK'] == 'współczytelnictwo'), 'WYNIK'].empty else wyniki_cal.loc[j, 'Druk i E-wydania']
 
 
 wyniki = wyniki[wyniki.index.str.contains(wyszukiwarka, case=False, na=False)]
