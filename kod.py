@@ -135,7 +135,8 @@ for i in selected_tematyki:
             else:
                 wyniki.loc[j, k] = 100
                 #max(wyniki.loc[j, 'Druk i E-wydania'], (1 - float(df[(df['tytuł'] == j) & (df['WSKAŹNIK'] == 'współczytelnictwo')]['WYNIK'].iloc[0])) * wyniki.loc[j, 'Druk i E-wydania'] + wyniki.loc[j, 'www'])
-                wyniki_cal.loc[j, k] = max(wyniki_cal.loc[j, 'Druk i E-wydania'], (1 - float(df[(df['tytuł'] == j) & (df['WSKAŹNIK'] == 'współczytelnictwo')]['WYNIK'])) * wyniki_cal.loc[j, 'Druk i E-wydania'] + wyniki_cal.loc[j, 'www'])
+                wyniki_cal.loc[j, k] = 100
+                #max(wyniki_cal.loc[j, 'Druk i E-wydania'], (1 - float(df[(df['tytuł'] == j) & (df['WSKAŹNIK'] == 'współczytelnictwo')]['WYNIK'])) * wyniki_cal.loc[j, 'Druk i E-wydania'] + wyniki_cal.loc[j, 'www'])
 
 
 wyniki = wyniki[wyniki.index.str.contains(wyszukiwarka, case=False, na=False)]
