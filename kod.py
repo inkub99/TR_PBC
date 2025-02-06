@@ -136,7 +136,7 @@ for i in selected_tematyki:
                 print(df[df['WSKAŹNIK']=='współczytelnictwo'])
                 wynik_value = df.loc[(df['tytuł'] == j) & (df['WSKAŹNIK'] == 'współczytelnictwo'), 'WYNIK']
 
-                wynik_value = float(wynik_value.iloc[0]) / 100 if not wynik_value.empty else 0
+                wynik_value = float(wynik_value.iloc[0])  if not wynik_value.empty else 0
 
                 wyniki.loc[j, k] = max(wyniki.loc[j, 'Druk i E-wydania'], 
                         (1 - wynik_value) * wyniki.loc[j, 'Druk i E-wydania'] + wyniki.loc[j, 'www'])
