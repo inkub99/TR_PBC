@@ -31,7 +31,7 @@ wydawca_legenda_dict = dict(zip(tematyka['tytuł'], tematyka['wydawca']))
 
 st.markdown("<h1 style='margin-top: -70px; text-align: center;'>Total Reach 360°</h1>", unsafe_allow_html=True)
 
-selected_miesiace = [356,357,358,359,360,361,362,363,364,365,366,367]
+selected_miesiace = [359,360,361,362,363,364,365,366,367,368,369,370]
 
 df = df[df['WAVE'].isin(selected_miesiace)]
 
@@ -313,7 +313,7 @@ for pismo in wyniki.index.unique():
 
 st.markdown(f"""<div style="font-size:12px">Statystyki: Zasięg CCS i Estymacja na populację, Populacja w wybranej grupie celowej =  {suma}</div>""", unsafe_allow_html=True)
 
-st.markdown("""<div style="font-size:12px">Fale: 4/2024-3/2025</div>""", unsafe_allow_html=True)
+st.markdown("""<div style="font-size:12px">Fale: 7/2024-6/2025</div>""", unsafe_allow_html=True)
 
 
 st.markdown("""<div style="font-size:12px">Dane CCS: Druk, E-wydania, Współczytelnictwo – Badanie PBC „Zanagażowanie w reklamę” ,
