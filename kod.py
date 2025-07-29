@@ -133,8 +133,7 @@ for i in selected_tematyki:
                                             
                 wyniki_cal.loc[j, k] = df[(df['tytuł'] == j) & (df['WSKAŹNIK'] == k) & (df['WAVE'].between(selected_miesiace[0], selected_miesiace[-1]))]['WYNIK'].mean()
             else:
-                print(df[df['WSKAŹNIK']=='współczytelnictwo'])
-                wynik_value = df.loc[(df['tytuł'] == j) & (df['WSKAŹNIK'] == 'współczytelnictwo'), 'WYNIK']
+                wynik_value = df.loc[(df['tytuł'] == j) & (df['WSKAŹNIK'] == 'współczytelnictwo'), 'WYNIK'] * 100
 
                 wynik_value = float(wynik_value.iloc[0])  if not wynik_value.empty else 0
 
