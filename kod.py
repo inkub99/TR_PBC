@@ -14,22 +14,28 @@ st.set_page_config(
 
 st.markdown("""
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
 <style>
+/* Globalnie Montserrat dla całej apki */
+html, body, [data-testid="stApp"] * {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
 /* Wyłączenie gradientu w pasku dekoracji */
 div[data-testid="stDecoration"]{
-  background-image:none !important;
-  background:none !important;
+  background-image: none !important;
+  background: none !important;
 }
-/* Header: kolor tekstu i font */
+
+/* Header – kolor tekstu i ikon */
 header[data-testid="stHeader"] *{
-  color:#273F4A !important;
-  font-family:'Montserrat', sans-serif !important;
+  color: #273F4A !important;
 }
-header[data-testid="stHeader"] button,
 header[data-testid="stHeader"] svg{
-  color:#273F4A !important;
-  fill:#273F4A !important;
+  fill: #273F4A !important;
 }
+
+main.block-container { padding-top: 0.5rem !important; }
 </style>
 """, unsafe_allow_html=True)
 
