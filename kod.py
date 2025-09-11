@@ -13,31 +13,37 @@ st.set_page_config(
 )
 
 st.markdown("""
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
-/* Globalnie Montserrat dla całej apki */
+/* Globalnie Montserrat */
 html, body, [data-testid="stApp"] * {
   font-family: 'Montserrat', sans-serif !important;
 }
 
-/* Wyłączenie gradientu w pasku dekoracji */
+/* Gradient paska */
 div[data-testid="stDecoration"]{
-  background-image: none !important;
-  background: none !important;
+  background-image:none !important;
+  background:none !important;
 }
 
-/* Header – kolor tekstu i ikon */
-header[data-testid="stHeader"] *{
-  color: #273F4A !important;
-}
-header[data-testid="stHeader"] svg{
-  fill: #273F4A !important;
+/* Kolor nagłówka (tekst + ikony) */
+[data-testid="stAppViewContainer"] header[data-testid="stHeader"],
+[data-testid="stAppViewContainer"] header[data-testid="stHeader"] *,
+[data-testid="stHeader"] .stActionButton *,
+[data-testid="stHeader"] button[kind="header"],
+[data-testid="stHeader"] button[kind="header"] *,
+[data-testid="stHeader"] svg, 
+[data-testid="stHeader"] svg * {
+  color:#273F4A !important;
+  fill:#273F4A !important;
 }
 
-main.block-container { padding-top: 0.5rem !important; }
+main.block-container { padding-top: .5rem !important; }
 </style>
 """, unsafe_allow_html=True)
+
 
 pd.set_option('display.float_format', '{:.0f}'.format)
 
