@@ -13,11 +13,22 @@ st.set_page_config(
 )
 
 st.markdown("""
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
 /* Wyłączenie gradientu w pasku dekoracji */
-div[data-testid="stDecoration"] {
-    background-image: none !important;
-    background: none !important;
+div[data-testid="stDecoration"]{
+  background-image:none !important;
+  background:none !important;
+}
+/* Header: kolor tekstu i font */
+header[data-testid="stHeader"] *{
+  color:#273F4A !important;
+  font-family:'Montserrat', sans-serif !important;
+}
+header[data-testid="stHeader"] button,
+header[data-testid="stHeader"] svg{
+  color:#273F4A !important;
+  fill:#273F4A !important;
 }
 </style>
 """, unsafe_allow_html=True)
