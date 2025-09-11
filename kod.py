@@ -12,6 +12,16 @@ st.set_page_config(
     layout="wide",
 )
 
+st.markdown("""
+<style>
+/* Wyłączenie gradientu w pasku dekoracji */
+div[data-testid="stDecoration"] {
+    background-image: none !important;
+    background: none !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
 pd.set_option('display.float_format', '{:.0f}'.format)
 
 
@@ -29,7 +39,7 @@ strony = pd.read_excel('strony.xlsx')
 tematyka_legenda_dict = dict(zip(strony['Pismo'], strony['Strona']))
 wydawca_legenda_dict = dict(zip(tematyka['tytuł'], tematyka['wydawca']))
 
-st.markdown("<h1 style='margin-top: -70px; text-align: center;'>Total Reach 360°</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='margin-top: -70px;'>Total Reach 360°</h1>", unsafe_allow_html=True)
 
 selected_miesiace = [359,360,361,362,363,364,365,366,367,368,369,370]
 
