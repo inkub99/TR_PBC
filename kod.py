@@ -70,14 +70,14 @@ df = df[df['WAVE'].isin(selected_miesiace)]
 
 Płeć = st.radio("Wybierz płeć:", ['Wszyscy', 'Kobiety', 'Mężczyźni'], horizontal=True, index =0)
 
-Wiek = st.multiselect("Wybierz grupę wiekową:", ['15-24', '25-34', '35-44', '45-59', '60-75'], default=['15-24', '25-34', '35-44', '45-59', '60-75'], placeholder="Wybierz opcję")
+Wiek = st.multiselect("Wybierz grupę wiekową:", ['15-24', '25-34', '35-44', '45-59', '60-75'], default=['15-24', '25-34', '35-44', '45-59', '60-75'])
 
 Grupa = st.radio("Wybierz grupę celową:", ['Wszyscy', 'Dochód gospodarstwa ponad 5 tys.', 'Dochód ponad 2 tys.',
                                            'Mieszkańcy miast powyżej 50 tys.', 'Osoby z dziećmi w wieku 0-14'], horizontal=True, index =0)
 
 col1, col2 = st.columns([2.2,1])
 with col1:
-    selected_tematyki = st.multiselect("Określ grupy pism:", tematyka_lista, tematyka_lista, placeholder="Wybierz opcję")
+    selected_tematyki = st.multiselect("Określ grupy pism:", tematyka_lista, default=tematyka_lista)
 with col2:
     wyszukiwarka = st.text_input("Wyszukaj markę prasową:",  "", key="placeholder")
 if selected_tematyki == []:
