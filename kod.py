@@ -394,7 +394,6 @@ st.download_button(
     data=open(plik_wyjsciowy, 'rb').read(),
     file_name=plik_wyjsciowy,
     mime="application/vnd.ms-excel",
-    key="download_excel"
 )
 
 st.markdown("""
@@ -404,7 +403,7 @@ st.markdown("""
     display: inline-block;
     position: relative;
     padding: max(14px, 1.4rem) max(20px, 2rem) max(14px, 1.4rem) max(20px, 2rem);
-    font-size: var(--font-size-14);
+    font-size: 14px;
     border: max(1.5px, 0.15rem) solid transparent;
     border-radius: max(10px, 1rem);
     text-decoration: none;
@@ -412,11 +411,11 @@ st.markdown("""
     cursor: pointer;
     line-height: 1.4em;
     text-transform: uppercase;
-    font-weight: var(--font-weight-bold);
+    font-weight: 700;
     width: fit-content;
     box-sizing: border-box;
-    border-color: var(--color-blue);
-    color: var(--color-blue);
+    border-color: #0FA8E1;
+    color: #0FA8E1;
     background: transparent;
 }
 
@@ -437,8 +436,8 @@ st.markdown("""
 
 /* Hover efekt */
 .stDownloadButton button:hover {
-    background-color: var(--color-blue);
-    color: var(--color-white);
+    background-color: #0FA8E1;
+    color: white;
 }
 .stDownloadButton button:hover::after {
     filter: brightness(0) invert(1);
