@@ -345,7 +345,7 @@ for pismo in wyniki.index.unique():
     except:
         pass
 
-st.markdown(f"""<div style="font-size:12px; color: #5E6781;">Statystyki: Zasięg CCS i Estymacja na populację, Populacja w wybranej grupie celowej =  {suma}</div>""", unsafe_allow_html=True)
+st.markdown(f"""<div style="font-size:12px; color: #5E6781; margin-top: 25px;">Statystyki: Zasięg CCS i Estymacja na populację, Populacja w wybranej grupie celowej =  {suma}</div>""", unsafe_allow_html=True)
 
 st.markdown("""<div style="font-size:12px; color: #5E6781;">Fale: 7/2024-6/2025</div>""", unsafe_allow_html=True)
 
