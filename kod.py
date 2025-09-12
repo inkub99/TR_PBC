@@ -403,9 +403,9 @@ st.markdown("""
     display: inline-block;
     position: relative;
     padding: 14px 20px;
-    font-size: 14px;
-    border: max(1.5px, 0.15rem) solid transparent;
-    border-radius: max(10px, 1rem);
+    font-size: 12px;
+    border: 1.5px solid transparent;
+    border-radius: 10px;
     text-decoration: none;
     transition: all 0.3s ease;
     cursor: pointer;
