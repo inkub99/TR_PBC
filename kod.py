@@ -400,7 +400,7 @@ st.download_button(
 st.markdown("""
 <style>
 /* Główna baza stylu przycisku */
-div[data-testid="stDownloadButton"][aria-label="download_excel"] button {
+.stDownloadButton button {
     display: inline-block;
     position: relative;
     padding: max(14px, 1.4rem) max(20px, 2rem) max(14px, 1.4rem) max(20px, 2rem);
@@ -421,7 +421,7 @@ div[data-testid="stDownloadButton"][aria-label="download_excel"] button {
 }
 
 /* Strzałka */
-div[data-testid="stDownloadButton"][aria-label="download_excel"] button::after {
+.stDownloadButton button::after {
     content: '';
     display: inline-block;
     width: 1em;
@@ -436,11 +436,11 @@ div[data-testid="stDownloadButton"][aria-label="download_excel"] button::after {
 }
 
 /* Hover efekt */
-div[data-testid="stDownloadButton"][aria-label="download_excel"] button:hover {
+.stDownloadButton button:hover {
     background-color: var(--color-blue);
     color: var(--color-white);
 }
-div[data-testid="stDownloadButton"][aria-label="download_excel"] button:hover::after {
+.stDownloadButton button:hover::after {
     filter: brightness(0) invert(1);
     transform: translateY(0.15em) translateX(5px);
 }
