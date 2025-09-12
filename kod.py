@@ -70,14 +70,14 @@ df = df[df['WAVE'].isin(selected_miesiace)]
 
 Płeć = st.radio("Wybierz płeć:", ['Wszyscy', 'Kobiety', 'Mężczyźni'], horizontal=True, index =0)
 
-Wiek = st.multiselect("Wybierz grupę wiekową:", ['15-24', '25-34', '35-44', '45-59', '60-75'], default=['15-24', '25-34', '35-44', '45-59', '60-75'])
+Wiek = st.multiselect("Wybierz grupę wiekową:", ['15-24', '25-34', '35-44', '45-59', '60-75'], default=['15-24', '25-34', '35-44', '45-59', '60-75'], placeholder="Wybierz opcję")
 
 Grupa = st.radio("Wybierz grupę celową:", ['Wszyscy', 'Dochód gospodarstwa ponad 5 tys.', 'Dochód ponad 2 tys.',
                                            'Mieszkańcy miast powyżej 50 tys.', 'Osoby z dziećmi w wieku 0-14'], horizontal=True, index =0)
 
 col1, col2 = st.columns([2.2,1])
 with col1:
-    selected_tematyki = st.multiselect("Określ grupy pism:", tematyka_lista, default=tematyka_lista)
+    selected_tematyki = st.multiselect("Określ grupy pism:", tematyka_lista, default=tematyka_lista, placeholder="Wybierz opcję")
 with col2:
     wyszukiwarka = st.text_input("Wyszukaj markę prasową:",  "", key="placeholder")
 if selected_tematyki == []:
@@ -318,17 +318,19 @@ html_table = f"<div style='margin: auto;'>{html_table}</div>"
 
 styled_table = f"""
 <style>
-    table {{
-        width: 100%;
-        margin: auto;
-        overflow-x: auto;
-    }}
-    th, td {{
-        padding: 10px;
-        text-align: left;
-        border: 1px solid #ddd;
-        white-space: nowrap;  /* Unikaj przerywania tekstu na wielu linijkach */
-    }}
+  table {{
+    width: 100%;
+    margin: auto;
+    border: 1px solid #EBEBEB !important;
+    border-radius: 10px !important;
+    overflow: hidden;
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+  }}
+  th, td {{ border: 1px solid #EBEBEB; padding: 10px; white-space: nowrap; color:#5E6781; }}
+  .st-emotion-cache-17b17hr th, .st-emotion-cache-17b17hr td {{
+      border: 1px solid #EBEBEB;
+  }}
 </style>
 {html_table}
 """
@@ -343,17 +345,17 @@ for pismo in wyniki.index.unique():
     except:
         pass
 
-st.markdown(f"""<div style="font-size:12px">Statystyki: Zasięg CCS i Estymacja na populację, Populacja w wybranej grupie celowej =  {suma}</div>""", unsafe_allow_html=True)
+st.markdown(f"""<div style="font-size:12px; color: #5E6781;">Statystyki: Zasięg CCS i Estymacja na populację, Populacja w wybranej grupie celowej =  {suma}</div>""", unsafe_allow_html=True)
 
-st.markdown("""<div style="font-size:12px">Fale: 7/2024-6/2025</div>""", unsafe_allow_html=True)
+st.markdown("""<div style="font-size:12px; color: #5E6781;">Fale: 7/2024-6/2025</div>""", unsafe_allow_html=True)
 
 
-st.markdown("""<div style="font-size:12px">Dane CCS: Druk, E-wydania, Współczytelnictwo – Badanie PBC „Zanagażowanie w reklamę” ,
+st.markdown("""<div style="font-size:12px; color: #5E6781;">Dane CCS: Druk, E-wydania, Współczytelnictwo – Badanie PBC „Zanagażowanie w reklamę” ,
 www, www PC, www mobile – Real Users (RU) PBI/Gemius</div>""", unsafe_allow_html=True)
             
-st.markdown(f"""<div style="font-size:12px">{tekst}</div>""", unsafe_allow_html=True)
+st.markdown(f"""<div style="font-size:12px; color: #5E6781;">{tekst}</div>""", unsafe_allow_html=True)
 
-st.markdown("""<div style="font-size:12px">Definicje: www.pbc.pl/wskazniki/</div>""", unsafe_allow_html=True)
+st.markdown("""<div style="font-size:12px; color: #5E6781;">Definicje: www.pbc.pl/wskazniki/</div>""", unsafe_allow_html=True)
 
 plik_wejsciowy = "szablon.xlsx"
 arkusz = openpyxl.load_workbook(plik_wejsciowy)
@@ -391,5 +393,56 @@ st.download_button(
     label="Zapisz raport do pliku",
     data=open(plik_wyjsciowy, 'rb').read(),
     file_name=plik_wyjsciowy,
-    mime="application/vnd.ms-excel"
+    mime="application/vnd.ms-excel",
+    key="download_excel"
 )
+
+st.markdown("""
+<style>
+/* Główna baza stylu przycisku */
+div[data-testid="stDownloadButton"][aria-label="download_excel"] button {
+    display: inline-block;
+    position: relative;
+    padding: max(14px, 1.4rem) max(20px, 2rem) max(14px, 1.4rem) max(20px, 2rem);
+    font-size: var(--font-size-14);
+    border: max(1.5px, 0.15rem) solid transparent;
+    border-radius: max(10px, 1rem);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    font-weight: var(--font-weight-bold);
+    width: fit-content;
+    box-sizing: border-box;
+    border-color: var(--color-blue);
+    color: var(--color-blue);
+    background: transparent;
+}
+
+/* Strzałka */
+div[data-testid="stDownloadButton"][aria-label="download_excel"] button::after {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-left: 0.5em;
+    transform: translateY(0.15em);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15.416 6.58614L12.3587 3.52881L11.416 4.47148L14.2573 7.31348L0 7.33348V8.66681L14.2973 8.64681L11.4153 11.5288L12.358 12.4715L15.416 9.41414C15.7898 9.03848 15.9996 8.53009 15.9996 8.00014C15.9996 7.47019 15.7898 6.9618 15.416 6.58614Z' fill='%230FA8E1'/%3E%3C/svg%3E");
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover efekt */
+div[data-testid="stDownloadButton"][aria-label="download_excel"] button:hover {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+div[data-testid="stDownloadButton"][aria-label="download_excel"] button:hover::after {
+    filter: brightness(0) invert(1);
+    transform: translateY(0.15em) translateX(5px);
+}
+</style>
+""", unsafe_allow_html=True)
