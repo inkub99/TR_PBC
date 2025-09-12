@@ -402,7 +402,7 @@ st.markdown("""
 .stDownloadButton button {
     display: inline-block;
     position: relative;
-    padding: max(14px, 1.4rem) max(20px, 2rem) max(14px, 1.4rem) max(20px, 2rem);
+    padding: 14px 20px;
     font-size: 14px;
     border: max(1.5px, 0.15rem) solid transparent;
     border-radius: max(10px, 1rem);
@@ -411,12 +411,13 @@ st.markdown("""
     cursor: pointer;
     line-height: 1.4em;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
     width: fit-content;
     box-sizing: border-box;
     border-color: #0FA8E1;
     color: #0FA8E1;
     background: transparent;
+    margin-top: 30px;
 }
 
 /* Strzałka */
