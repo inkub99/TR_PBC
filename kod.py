@@ -70,7 +70,7 @@ df = df[df['WAVE'].isin(selected_miesiace)]
 
 Płeć = st.radio("Wybierz płeć:", ['Wszyscy', 'Kobiety', 'Mężczyźni'], horizontal=True, index =0)
 
-Wiek = st.multiselect("Wybierz grupę wiekową:", ['15-24', '25-34', '35-44', '45-59', '60-75'], ['15-24', '25-34', '35-44', '45-59', '60-75'], placeholder="Wybierz opcję")
+Wiek = st.multiselect("Wybierz grupę wiekową:", ['15-24', '25-34', '35-44', '45-59', '60-75'], default=['15-24', '25-34', '35-44', '45-59', '60-75'], placeholder="Wybierz opcję")
 
 Grupa = st.radio("Wybierz grupę celową:", ['Wszyscy', 'Dochód gospodarstwa ponad 5 tys.', 'Dochód ponad 2 tys.',
                                            'Mieszkańcy miast powyżej 50 tys.', 'Osoby z dziećmi w wieku 0-14'], horizontal=True, index =0)
