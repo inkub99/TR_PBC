@@ -31,7 +31,7 @@ wydawca_legenda_dict = dict(zip(tematyka['tytuł'], tematyka['wydawca']))
 
 st.markdown("<h1 style='margin-top: -70px; text-align: center;'>Total Reach 360°</h1>", unsafe_allow_html=True)
 
-selected_miesiace = [359,360,361,362,363,364,365,366,367,368,369,370]
+selected_miesiace = [362,363,364,365,366,367,368,369,370,371,372,373]
 
 df = df[df['WAVE'].isin(selected_miesiace)]
 
