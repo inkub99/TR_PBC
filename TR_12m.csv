@@ -9,7 +9,7 @@
 100 Rad;348;Druk i E-wydania;353479
 100 Rad;349;Druk i E-wydania;433814
 100 Rad;350;Druk i E-wydania;363792
-100 Rad;370;współczytelnictwo;0
+100 Rad;350;współczytelnictwo;0
 100 Rad;351;Druk i E-wydania;338176
 100 Rad;352;Druk i E-wydania;432782
 100 Rad;353;Druk i E-wydania;332111
@@ -51,7 +51,7 @@ Cała Ty;347;Druk i E-wydania;275926
 Cała Ty;348;Druk i E-wydania;211596
 Cała Ty;349;Druk i E-wydania;503335
 Cała Ty;350;Druk i E-wydania;224947
-Cała Ty;370;współczytelnictwo;0
+Cała Ty;350;współczytelnictwo;0
 Cała Ty;351;Druk i E-wydania;308675
 Cała Ty;352;Druk i E-wydania;114842
 Cała Ty;353;Druk i E-wydania;257801
@@ -93,7 +93,7 @@ Chwila dla Ciebie;347;Druk i E-wydania;1432636
 Chwila dla Ciebie;348;Druk i E-wydania;1555501
 Chwila dla Ciebie;349;Druk i E-wydania;1400349
 Chwila dla Ciebie;350;Druk i E-wydania;1248133
-Chwila dla Ciebie;370;współczytelnictwo;0
+Chwila dla Ciebie;350;współczytelnictwo;0
 Chwila dla Ciebie;351;Druk i E-wydania;1268984
 Chwila dla Ciebie;352;Druk i E-wydania;1713457
 Chwila dla Ciebie;353;Druk i E-wydania;1210310
@@ -135,7 +135,7 @@ Dobry Tydzień;347;Druk i E-wydania;178857
 Dobry Tydzień;348;Druk i E-wydania;262637
 Dobry Tydzień;349;Druk i E-wydania;220174
 Dobry Tydzień;350;Druk i E-wydania;178248
-Dobry Tydzień;370;współczytelnictwo;0
+Dobry Tydzień;350;współczytelnictwo;0
 Dobry Tydzień;351;Druk i E-wydania;167617
 Dobry Tydzień;352;Druk i E-wydania;195905
 Dobry Tydzień;353;Druk i E-wydania;145513
@@ -213,7 +213,7 @@ Dziennik Bałtycki;349;www;884844
 Dziennik Bałtycki;349;www Mobile;841266
 Dziennik Bałtycki;349;www PC;47628
 Dziennik Bałtycki;350;Druk i E-wydania;94027
-Dziennik Bałtycki;370;współczytelnictwo;0,13
+Dziennik Bałtycki;350;współczytelnictwo;0,13
 Dziennik Bałtycki;350;www;1075680
 Dziennik Bałtycki;350;www Mobile;1008774
 Dziennik Bałtycki;350;www PC;74844
@@ -363,7 +363,7 @@ Dziennik Gazeta Prawna;349;www Mobile;6983010
 Dziennik Gazeta Prawna;349;www PC;700326
 Dziennik Gazeta Prawna;349;www PC;330804
 Dziennik Gazeta Prawna;350;Druk i E-wydania;826731
-Dziennik Gazeta Prawna;370;współczytelnictwo;0,48
+Dziennik Gazeta Prawna;350;współczytelnictwo;0,48
 Dziennik Gazeta Prawna;350;www;6636330
 Dziennik Gazeta Prawna;350;www Mobile;5834754
 Dziennik Gazeta Prawna;350;www PC;1470150
@@ -504,7 +504,7 @@ Dziennik Łódzki;349;www;1681074
 Dziennik Łódzki;349;www Mobile;1582740
 Dziennik Łódzki;349;www PC;142236
 Dziennik Łódzki;350;Druk i E-wydania;122944
-Dziennik Łódzki;370;współczytelnictwo;0,2
+Dziennik Łódzki;350;współczytelnictwo;0,2
 Dziennik Łódzki;350;www;1698408
 Dziennik Łódzki;350;www Mobile;1625184
 Dziennik Łódzki;350;www PC;113724
@@ -645,7 +645,7 @@ Dziennik Polski;349;www;1221318
 Dziennik Polski;349;www Mobile;1118448
 Dziennik Polski;349;www PC;136242
 Dziennik Polski;350;Druk i E-wydania;65093
-Dziennik Polski;370;współczytelnictwo;0,55
+Dziennik Polski;350;współczytelnictwo;0,55
 Dziennik Polski;350;www;1185192
 Dziennik Polski;350;www Mobile;1069686
 Dziennik Polski;350;www PC;141588
@@ -786,7 +786,7 @@ Dziennik Zachodni;349;www;1798524
 Dziennik Zachodni;349;www Mobile;1706346
 Dziennik Zachodni;349;www PC;153252
 Dziennik Zachodni;350;Druk i E-wydania;148109
-Dziennik Zachodni;370;współczytelnictwo;0,33
+Dziennik Zachodni;350;współczytelnictwo;0,33
 Dziennik Zachodni;350;www;1925856
 Dziennik Zachodni;350;www Mobile;1819584
 Dziennik Zachodni;350;www PC;169128
@@ -927,7 +927,7 @@ Echo Dnia;349;www;1834488
 Echo Dnia;349;www Mobile;1650780
 Echo Dnia;349;www PC;359640
 Echo Dnia;350;Druk i E-wydania;89917
-Echo Dnia;370;współczytelnictwo;0,72
+Echo Dnia;350;współczytelnictwo;0,72
 Echo Dnia;350;www;1867536
 Echo Dnia;350;www Mobile;1697922
 Echo Dnia;350;www PC;340848
@@ -1068,7 +1068,7 @@ Elle;349;www;1600560
 Elle;349;www Mobile;1554066
 Elle;349;www PC;107568
 Elle;350;Druk i E-wydania;193949
-Elle;370;współczytelnictwo;0,36
+Elle;350;współczytelnictwo;0,36
 Elle;350;www;1595214
 Elle;350;www Mobile;1489428
 Elle;350;www PC;136728
@@ -1209,7 +1209,7 @@ Express Bydgoski;349;www;2475522
 Express Bydgoski;349;www Mobile;2420928
 Express Bydgoski;349;www PC;93960
 Express Bydgoski;350;Druk i E-wydania;60045
-Express Bydgoski;370;współczytelnictwo;0,49
+Express Bydgoski;350;współczytelnictwo;0,49
 Express Bydgoski;350;www;2985498
 Express Bydgoski;350;www Mobile;2945646
 Express Bydgoski;350;www PC;98820
@@ -1350,7 +1350,7 @@ Express Ilustrowany;349;www;989658
 Express Ilustrowany;349;www Mobile;871884
 Express Ilustrowany;349;www PC;152928
 Express Ilustrowany;350;Druk i E-wydania;51391
-Express Ilustrowany;370;współczytelnictwo;0,48
+Express Ilustrowany;350;współczytelnictwo;0,48
 Express Ilustrowany;350;www;1314144
 Express Ilustrowany;350;www Mobile;1188270
 Express Ilustrowany;350;www PC;196182
@@ -1491,7 +1491,7 @@ Fakt Gazeta Codzienna;349;www;8784450
 Fakt Gazeta Codzienna;349;www Mobile;8570772
 Fakt Gazeta Codzienna;349;www PC;1390122
 Fakt Gazeta Codzienna;350;Druk i E-wydania;1584853
-Fakt Gazeta Codzienna;370;współczytelnictwo;0,41
+Fakt Gazeta Codzienna;350;współczytelnictwo;0,41
 Fakt Gazeta Codzienna;350;www;9338004
 Fakt Gazeta Codzienna;350;www Mobile;9093384
 Fakt Gazeta Codzienna;350;www PC;1732266
@@ -1632,7 +1632,7 @@ Forbes. Profit;349;www;1468854
 Forbes. Profit;349;www Mobile;1382670
 Forbes. Profit;349;www PC;107568
 Forbes. Profit;350;Druk i E-wydania;353009
-Forbes. Profit;370;współczytelnictwo;0,55
+Forbes. Profit;350;współczytelnictwo;0,55
 Forbes. Profit;350;www;1755270
 Forbes. Profit;350;www Mobile;1635228
 Forbes. Profit;350;www PC;158274
@@ -1773,7 +1773,7 @@ Gazeta Krakowska;349;www;2178252
 Gazeta Krakowska;349;www Mobile;2085426
 Gazeta Krakowska;349;www PC;183870
 Gazeta Krakowska;350;Druk i E-wydania;69869
-Gazeta Krakowska;370;współczytelnictwo;0,5
+Gazeta Krakowska;350;współczytelnictwo;0,5
 Gazeta Krakowska;350;www;1876932
 Gazeta Krakowska;350;www Mobile;1768068
 Gazeta Krakowska;350;www PC;191322
@@ -1914,7 +1914,7 @@ Gazeta Lubuska;349;www;727866
 Gazeta Lubuska;349;www Mobile;655614
 Gazeta Lubuska;349;www PC;88614
 Gazeta Lubuska;350;Druk i E-wydania;71162
-Gazeta Lubuska;370;współczytelnictwo;0,34
+Gazeta Lubuska;350;współczytelnictwo;0,34
 Gazeta Lubuska;350;www;1177740
 Gazeta Lubuska;350;www Mobile;1113264
 Gazeta Lubuska;350;www PC;98820
@@ -2027,7 +2027,7 @@ Gazeta Pomorska;349;www;3421926
 Gazeta Pomorska;349;www Mobile;3340440
 Gazeta Pomorska;349;www PC;189864
 Gazeta Pomorska;350;Druk i E-wydania;87676
-Gazeta Pomorska;370;współczytelnictwo;0,18
+Gazeta Pomorska;350;współczytelnictwo;0,18
 Gazeta Pomorska;350;www;3950532
 Gazeta Pomorska;350;www Mobile;3882168
 Gazeta Pomorska;350;www PC;194238
@@ -2168,7 +2168,7 @@ Gazeta Wrocławska;349;www;2029860
 Gazeta Wrocławska;349;www Mobile;1887138
 Gazeta Wrocławska;349;www PC;298566
 Gazeta Wrocławska;350;Druk i E-wydania;131511
-Gazeta Wrocławska;370;współczytelnictwo;0,41
+Gazeta Wrocławska;350;współczytelnictwo;0,41
 Gazeta Wrocławska;350;www;2673648
 Gazeta Wrocławska;350;www Mobile;2494476
 Gazeta Wrocławska;350;www PC;380376
@@ -2309,7 +2309,7 @@ Gazeta Współczesna;349;www;247536
 Gazeta Współczesna;349;www Mobile;217080
 Gazeta Współczesna;349;www PC;31590
 Gazeta Współczesna;350;Druk i E-wydania;20944
-Gazeta Współczesna;370;współczytelnictwo;0,3
+Gazeta Współczesna;350;współczytelnictwo;0,3
 Gazeta Współczesna;350;www;401598
 Gazeta Współczesna;350;www Mobile;370170
 Gazeta Współczesna;350;www PC;33210
@@ -2450,7 +2450,7 @@ Gazeta Wyborcza;349;www;7561674
 Gazeta Wyborcza;349;www Mobile;7252902
 Gazeta Wyborcza;349;www PC;1274940
 Gazeta Wyborcza;350;Druk i E-wydania;1488411
-Gazeta Wyborcza;370;współczytelnictwo;0,62
+Gazeta Wyborcza;350;współczytelnictwo;0,62
 Gazeta Wyborcza;350;www;9277578
 Gazeta Wyborcza;350;www Mobile;8961030
 Gazeta Wyborcza;350;www PC;1642518
@@ -2591,7 +2591,7 @@ Głos Wielkopolski;349;www;1563300
 Głos Wielkopolski;349;www Mobile;1496394
 Głos Wielkopolski;349;www PC;108216
 Głos Wielkopolski;350;Druk i E-wydania;185878
-Głos Wielkopolski;370;współczytelnictwo;0,46
+Głos Wielkopolski;350;współczytelnictwo;0,46
 Głos Wielkopolski;350;www;1652562
 Głos Wielkopolski;350;www Mobile;1574478
 Głos Wielkopolski;350;www PC;137700
@@ -2705,7 +2705,7 @@ Głos-Dziennik Pomorza;349;www;3161430
 Głos-Dziennik Pomorza;349;www Mobile;3003156
 Głos-Dziennik Pomorza;349;www PC;253206
 Głos-Dziennik Pomorza;350;Druk i E-wydania;44891
-Głos-Dziennik Pomorza;370;współczytelnictwo;0,21
+Głos-Dziennik Pomorza;350;współczytelnictwo;0,21
 Głos-Dziennik Pomorza;351;Druk i E-wydania;98645
 Głos-Dziennik Pomorza;352;Druk i E-wydania;13673
 Głos-Dziennik Pomorza;353;Druk i E-wydania;124628
@@ -2810,7 +2810,7 @@ Glamour;349;www;932796
 Glamour;349;www Mobile;886140
 Glamour;349;www PC;51678
 Glamour;350;Druk i E-wydania;113648
-Glamour;370;współczytelnictwo;0,31
+Glamour;350;współczytelnictwo;0,31
 Glamour;350;www;1491534
 Glamour;350;www Mobile;1407780
 Glamour;350;www PC;101250
@@ -2960,7 +2960,7 @@ Gość Niedzielny;349;www;649296
 Gość Niedzielny;349;www Mobile;532008
 Gość Niedzielny;349;www PC;121986
 Gość Niedzielny;350;Druk i E-wydania;576206
-Gość Niedzielny;370;współczytelnictwo;0,39
+Gość Niedzielny;350;współczytelnictwo;0,39
 Gość Niedzielny;350;www;581094
 Gość Niedzielny;350;www Mobile;496044
 Gość Niedzielny;350;www PC;88776
@@ -3095,7 +3095,7 @@ Kobieta i Życie;349;www;620946
 Kobieta i Życie;349;www Mobile;591624
 Kobieta i Życie;349;www PC;32400
 Kobieta i Życie;350;Druk i E-wydania;512862
-Kobieta i Życie;370;współczytelnictwo;0,03
+Kobieta i Życie;350;współczytelnictwo;0,03
 Kobieta i Życie;350;www;910926
 Kobieta i Życie;350;www Mobile;866052
 Kobieta i Życie;350;www PC;55566
@@ -3236,7 +3236,7 @@ Kurier Lubelski;349;www;548532
 Kurier Lubelski;349;www Mobile;501066
 Kurier Lubelski;349;www PC;58482
 Kurier Lubelski;350;Druk i E-wydania;74814
-Kurier Lubelski;370;współczytelnictwo;0,42
+Kurier Lubelski;350;współczytelnictwo;0,42
 Kurier Lubelski;350;www;927612
 Kurier Lubelski;350;www Mobile;850338
 Kurier Lubelski;350;www PC;100602
@@ -3377,7 +3377,7 @@ Kurier Poranny;349;www;987390
 Kurier Poranny;349;www Mobile;886950
 Kurier Poranny;349;www PC;136080
 Kurier Poranny;350;Druk i E-wydania;33796
-Kurier Poranny;370;współczytelnictwo;0,39
+Kurier Poranny;350;współczytelnictwo;0,39
 Kurier Poranny;350;www;1356426
 Kurier Poranny;350;www Mobile;1244646
 Kurier Poranny;350;www PC;169290
@@ -3482,7 +3482,7 @@ Kurier Poranny;367;www PC;106 272
 Życie na Gorąco;348;Druk i E-wydania;1764460
 Życie na Gorąco;349;Druk i E-wydania;1618935
 Życie na Gorąco;350;Druk i E-wydania;1615534
-Życie na Gorąco;370;współczytelnictwo;0
+Życie na Gorąco;350;współczytelnictwo;0
 Życie na Gorąco;351;Druk i E-wydania;1562453
 Życie na Gorąco;352;Druk i E-wydania;1687188
 Życie na Gorąco;353;Druk i E-wydania;1712145
@@ -3524,7 +3524,7 @@ Kurier Poranny;367;www PC;106 272
 Świat & Ludzie;348;Druk i E-wydania;302933
 Świat & Ludzie;349;Druk i E-wydania;268806
 Świat & Ludzie;350;Druk i E-wydania;247075
-Świat & Ludzie;370;współczytelnictwo;0
+Świat & Ludzie;350;współczytelnictwo;0
 Świat & Ludzie;351;Druk i E-wydania;228009
 Świat & Ludzie;352;Druk i E-wydania;191535
 Świat & Ludzie;353;Druk i E-wydania;288219
@@ -3596,7 +3596,7 @@ Kurier Poranny;367;www PC;106 272
 Świat Kobiety;349;www Mobile;591624
 Świat Kobiety;349;www PC;32400
 Świat Kobiety;350;Druk i E-wydania;433023
-Świat Kobiety;370;współczytelnictwo;0,03
+Świat Kobiety;350;współczytelnictwo;0,03
 Świat Kobiety;350;www;910926
 Świat Kobiety;350;www Mobile;866052
 Świat Kobiety;350;www PC;55566
@@ -3692,7 +3692,7 @@ Kurier Poranny;367;www PC;106 272
 Świat Seriali;348;Druk i E-wydania;673337
 Świat Seriali;349;Druk i E-wydania;331472
 Świat Seriali;350;Druk i E-wydania;428740
-Świat Seriali;370;współczytelnictwo;0
+Świat Seriali;350;współczytelnictwo;0
 Świat Seriali;351;Druk i E-wydania;362142
 Świat Seriali;352;Druk i E-wydania;397771
 Świat Seriali;353;Druk i E-wydania;181116
@@ -3734,7 +3734,7 @@ Kurier Poranny;367;www PC;106 272
 Świat Wiedzy;348;Druk i E-wydania;851265
 Świat Wiedzy;349;Druk i E-wydania;1116888
 Świat Wiedzy;350;Druk i E-wydania;1196689
-Świat Wiedzy;370;współczytelnictwo;0,33
+Świat Wiedzy;350;współczytelnictwo;0,33
 Świat Wiedzy;351;Druk i E-wydania;1101915
 Świat Wiedzy;352;Druk i E-wydania;1224854
 Świat Wiedzy;353;Druk i E-wydania;944021
@@ -3776,7 +3776,7 @@ Magazyn Telewizyjny Kurier TV;347;Druk i E-wydania;847420
 Magazyn Telewizyjny Kurier TV;348;Druk i E-wydania;558694
 Magazyn Telewizyjny Kurier TV;349;Druk i E-wydania;810725
 Magazyn Telewizyjny Kurier TV;350;Druk i E-wydania;469315
-Magazyn Telewizyjny Kurier TV;370;współczytelnictwo;0
+Magazyn Telewizyjny Kurier TV;350;współczytelnictwo;0
 Magazyn Telewizyjny Kurier TV;351;Druk i E-wydania;280608
 Magazyn Telewizyjny Kurier TV;352;Druk i E-wydania;591482
 Magazyn Telewizyjny Kurier TV;353;Druk i E-wydania;1140610
@@ -3818,7 +3818,7 @@ Mam Ogród;347;Druk i E-wydania;456829
 Mam Ogród;348;Druk i E-wydania;519084
 Mam Ogród;349;Druk i E-wydania;368968
 Mam Ogród;350;Druk i E-wydania;395112
-Mam Ogród;370;współczytelnictwo;0
+Mam Ogród;350;współczytelnictwo;0
 Mam Ogród;351;Druk i E-wydania;524091
 Mam Ogród;352;Druk i E-wydania;392283
 Mam Ogród;353;Druk i E-wydania;387958
@@ -3860,7 +3860,7 @@ Motor;347;Druk i E-wydania;408135
 Motor;348;Druk i E-wydania;460754
 Motor;349;Druk i E-wydania;355632
 Motor;350;Druk i E-wydania;397976
-Motor;370;współczytelnictwo;0,35
+Motor;350;współczytelnictwo;0,35
 Motor;351;Druk i E-wydania;294841
 Motor;352;Druk i E-wydania;460736
 Motor;353;Druk i E-wydania;352976
@@ -3938,7 +3938,7 @@ Murator;349;www;6086988
 Murator;349;www Mobile;5707260
 Murator;349;www PC;777762
 Murator;350;Druk i E-wydania;522137
-Murator;370;współczytelnictwo;0,49
+Murator;350;współczytelnictwo;0,49
 Murator;350;www;5693490
 Murator;350;www Mobile;5318460
 Murator;350;www PC;746496
@@ -4043,7 +4043,7 @@ Na Żywo;347;Druk i E-wydania;408799
 Na Żywo;348;Druk i E-wydania;467190
 Na Żywo;349;Druk i E-wydania;563308
 Na Żywo;350;Druk i E-wydania;673769
-Na Żywo;370;współczytelnictwo;0
+Na Żywo;350;współczytelnictwo;0
 Na Żywo;351;Druk i E-wydania;446960
 Na Żywo;352;Druk i E-wydania;547172
 Na Żywo;353;Druk i E-wydania;547940
@@ -4121,7 +4121,7 @@ Newsweek Polska;349;www;1974618
 Newsweek Polska;349;www Mobile;1846476
 Newsweek Polska;349;www PC;204282
 Newsweek Polska;350;Druk i E-wydania;1380524
-Newsweek Polska;370;współczytelnictwo;0,36
+Newsweek Polska;350;współczytelnictwo;0,36
 Newsweek Polska;350;www;3360366
 Newsweek Polska;350;www Mobile;3143286
 Newsweek Polska;350;www PC;464940
@@ -4226,7 +4226,7 @@ Nostalgia;347;Druk i E-wydania;182307
 Nostalgia;348;Druk i E-wydania;111641
 Nostalgia;349;Druk i E-wydania;164128
 Nostalgia;350;Druk i E-wydania;74310
-Nostalgia;370;współczytelnictwo;0
+Nostalgia;350;współczytelnictwo;0
 Nostalgia;351;Druk i E-wydania;88277
 Nostalgia;352;Druk i E-wydania;81651
 Nostalgia;353;Druk i E-wydania;124115
@@ -4304,7 +4304,7 @@ Nowa Trybuna Opolska;349;www;1315926
 Nowa Trybuna Opolska;349;www Mobile;1254042
 Nowa Trybuna Opolska;349;www PC;101736
 Nowa Trybuna Opolska;350;Druk i E-wydania;89378
-Nowa Trybuna Opolska;370;współczytelnictwo;0,36
+Nowa Trybuna Opolska;350;współczytelnictwo;0,36
 Nowa Trybuna Opolska;350;www;1450710
 Nowa Trybuna Opolska;350;www Mobile;1378944
 Nowa Trybuna Opolska;350;www PC;112266
@@ -4445,7 +4445,7 @@ Nowiny;349;www;1359504
 Nowiny;349;www Mobile;1228770
 Nowiny;349;www PC;225990
 Nowiny;350;Druk i E-wydania;101435
-Nowiny;370;współczytelnictwo;0,7
+Nowiny;350;współczytelnictwo;0,7
 Nowiny;350;www;1919700
 Nowiny;350;www Mobile;1786374
 Nowiny;350;www PC;263412
@@ -4586,7 +4586,7 @@ Nowości - Dziennik Toruński;349;www;1734048
 Nowości - Dziennik Toruński;349;www Mobile;1680912
 Nowości - Dziennik Toruński;349;www PC;77922
 Nowości - Dziennik Toruński;350;Druk i E-wydania;57259
-Nowości - Dziennik Toruński;370;współczytelnictwo;0,43
+Nowości - Dziennik Toruński;350;współczytelnictwo;0,43
 Nowości - Dziennik Toruński;350;www;2354832
 Nowości - Dziennik Toruński;350;www Mobile;2301858
 Nowości - Dziennik Toruński;350;www PC;90234
@@ -4721,7 +4721,7 @@ Olivia;349;www;620946
 Olivia;349;www Mobile;591624
 Olivia;349;www PC;32400
 Olivia;350;Druk i E-wydania;360697
-Olivia;370;współczytelnictwo;0,03
+Olivia;350;współczytelnictwo;0,03
 Olivia;350;www;910926
 Olivia;350;www Mobile;866052
 Olivia;350;www PC;55566
@@ -4826,7 +4826,7 @@ Pani;347;Druk i E-wydania;255406
 Pani;348;Druk i E-wydania;331831
 Pani;349;Druk i E-wydania;379471
 Pani;350;Druk i E-wydania;384245
-Pani;370;współczytelnictwo;0,25
+Pani;350;współczytelnictwo;0,25
 Pani;351;Druk i E-wydania;414261
 Pani;352;Druk i E-wydania;456618
 Pani;353;Druk i E-wydania;333448
@@ -4898,7 +4898,7 @@ Pani Domu;349;www;620946
 Pani Domu;349;www Mobile;591624
 Pani Domu;349;www PC;32400
 Pani Domu;350;Druk i E-wydania;700142
-Pani Domu;370;współczytelnictwo;0,04
+Pani Domu;350;współczytelnictwo;0,04
 Pani Domu;350;www;910926
 Pani Domu;350;www Mobile;866052
 Pani Domu;350;www PC;55566
@@ -5039,7 +5039,7 @@ Parkiet Gazeta Giełdy;349;www;425574
 Parkiet Gazeta Giełdy;349;www Mobile;344250
 Parkiet Gazeta Giełdy;349;www PC;89748
 Parkiet Gazeta Giełdy;350;Druk i E-wydania;104400
-Parkiet Gazeta Giełdy;370;współczytelnictwo;0,58
+Parkiet Gazeta Giełdy;350;współczytelnictwo;0,58
 Parkiet Gazeta Giełdy;350;www;572346
 Parkiet Gazeta Giełdy;350;www Mobile;455706
 Parkiet Gazeta Giełdy;350;www PC;125226
@@ -5180,7 +5180,7 @@ Polityka;349;www;824580
 Polityka;349;www Mobile;613494
 Polityka;349;www PC;230364
 Polityka;350;Druk i E-wydania;677896
-Polityka;370;współczytelnictwo;0,55
+Polityka;350;współczytelnictwo;0,55
 Polityka;350;www;1127844
 Polityka;350;www Mobile;866376
 Polityka;350;www PC;289170
@@ -5318,7 +5318,7 @@ Polska Metropolia Warszawska;349;Druk i E-wydania;128952
 Polska Metropolia Warszawska;349;www;324
 Polska Metropolia Warszawska;349;www Mobile;324
 Polska Metropolia Warszawska;350;Druk i E-wydania;128326
-Polska Metropolia Warszawska;370;współczytelnictwo;0,02
+Polska Metropolia Warszawska;350;współczytelnictwo;0,02
 Polska Metropolia Warszawska;350;www;324
 Polska Metropolia Warszawska;350;www Mobile;324
 Polska Metropolia Warszawska;351;Druk i E-wydania;28162
@@ -5401,7 +5401,7 @@ Poradnik 50+;349;www;620946
 Poradnik 50+;349;www Mobile;591624
 Poradnik 50+;349;www PC;32400
 Poradnik 50+;350;Druk i E-wydania;302892
-Poradnik 50+;370;współczytelnictwo;0,02
+Poradnik 50+;350;współczytelnictwo;0,02
 Poradnik 50+;350;www;910926
 Poradnik 50+;350;www Mobile;866052
 Poradnik 50+;350;www PC;55566
@@ -5536,7 +5536,7 @@ Poradnik Domowy;349;www;620946
 Poradnik Domowy;349;www Mobile;591624
 Poradnik Domowy;349;www PC;32400
 Poradnik Domowy;350;Druk i E-wydania;482135
-Poradnik Domowy;370;współczytelnictwo;0,48
+Poradnik Domowy;350;współczytelnictwo;0,48
 Poradnik Domowy;350;www;910926
 Poradnik Domowy;350;www Mobile;866052
 Poradnik Domowy;350;www PC;55566
@@ -5653,7 +5653,7 @@ Przyjaciółka;349;www;620946
 Przyjaciółka;349;www Mobile;591624
 Przyjaciółka;349;www PC;32400
 Przyjaciółka;350;Druk i E-wydania;969027
-Przyjaciółka;370;współczytelnictwo;0,03
+Przyjaciółka;350;współczytelnictwo;0,03
 Przyjaciółka;350;www;910926
 Przyjaciółka;350;www Mobile;866052
 Przyjaciółka;350;www PC;55566
@@ -5758,7 +5758,7 @@ Puls Biznesu;347;Druk i E-wydania;252236
 Puls Biznesu;348;Druk i E-wydania;316289
 Puls Biznesu;349;Druk i E-wydania;239829
 Puls Biznesu;350;Druk i E-wydania;251795
-Puls Biznesu;370;współczytelnictwo;0,61
+Puls Biznesu;350;współczytelnictwo;0,61
 Puls Biznesu;350;www;1190376
 Puls Biznesu;350;www Mobile;929394
 Puls Biznesu;350;www PC;300186
@@ -5863,7 +5863,7 @@ Retro;347;Druk i E-wydania;216780
 Retro;348;Druk i E-wydania;169166
 Retro;349;Druk i E-wydania;160478
 Retro;350;Druk i E-wydania;204498
-Retro;370;współczytelnictwo;0
+Retro;350;współczytelnictwo;0
 Retro;351;Druk i E-wydania;121901
 Retro;352;Druk i E-wydania;151377
 Retro;353;Druk i E-wydania;173243
@@ -5905,7 +5905,7 @@ Rewia;347;Druk i E-wydania;236586
 Rewia;348;Druk i E-wydania;256001
 Rewia;349;Druk i E-wydania;250019
 Rewia;350;Druk i E-wydania;292423
-Rewia;370;współczytelnictwo;0
+Rewia;350;współczytelnictwo;0
 Rewia;351;Druk i E-wydania;229913
 Rewia;352;Druk i E-wydania;392317
 Rewia;353;Druk i E-wydania;331028
@@ -5983,7 +5983,7 @@ Rzeczpospolita;349;www;5193396
 Rzeczpospolita;349;www Mobile;4654908
 Rzeczpospolita;349;www PC;1175958
 Rzeczpospolita;350;Druk i E-wydania;462244
-Rzeczpospolita;370;współczytelnictwo;0,54
+Rzeczpospolita;350;współczytelnictwo;0,54
 Rzeczpospolita;350;www;6895044
 Rzeczpospolita;350;www Mobile;6278148
 Rzeczpospolita;350;www PC;1621458
@@ -6088,7 +6088,7 @@ Show;347;Druk i E-wydania;232323
 Show;348;Druk i E-wydania;325119
 Show;349;Druk i E-wydania;292744
 Show;350;Druk i E-wydania;405302
-Show;370;współczytelnictwo;0
+Show;350;współczytelnictwo;0
 Show;351;Druk i E-wydania;383262
 Show;352;Druk i E-wydania;334094
 Show;353;Druk i E-wydania;374183
@@ -6166,7 +6166,7 @@ Sieci;349;www;1719306
 Sieci;349;www Mobile;1522314
 Sieci;349;www PC;416340
 Sieci;350;Druk i E-wydania;377368
-Sieci;370;współczytelnictwo;0,76
+Sieci;350;współczytelnictwo;0,76
 Sieci;350;www;2249532
 Sieci;350;www Mobile;2024514
 Sieci;350;www PC;502524
@@ -6271,7 +6271,7 @@ Sukcesy i Porażki;347;Druk i E-wydania;382468
 Sukcesy i Porażki;348;Druk i E-wydania;551799
 Sukcesy i Porażki;349;Druk i E-wydania;407658
 Sukcesy i Porażki;350;Druk i E-wydania;382722
-Sukcesy i Porażki;370;współczytelnictwo;0
+Sukcesy i Porażki;350;współczytelnictwo;0
 Sukcesy i Porażki;351;Druk i E-wydania;430056
 Sukcesy i Porażki;352;Druk i E-wydania;492343
 Sukcesy i Porażki;353;Druk i E-wydania;520443
@@ -6349,7 +6349,7 @@ Super Express;349;www;10620396
 Super Express;349;www Mobile;10487880
 Super Express;349;www PC;1077138
 Super Express;350;Druk i E-wydania;820208
-Super Express;370;współczytelnictwo;0,32
+Super Express;350;współczytelnictwo;0,32
 Super Express;350;www;10932570
 Super Express;350;www Mobile;10777536
 Super Express;350;www PC;1220994
@@ -6454,7 +6454,7 @@ Super TV;347;Druk i E-wydania;298973
 Super TV;348;Druk i E-wydania;300867
 Super TV;349;Druk i E-wydania;281981
 Super TV;350;Druk i E-wydania;244268
-Super TV;370;współczytelnictwo;0
+Super TV;350;współczytelnictwo;0
 Super TV;351;Druk i E-wydania;394155
 Super TV;352;Druk i E-wydania;338766
 Super TV;353;Druk i E-wydania;370781
@@ -6505,7 +6505,7 @@ Tele Świat;347;Druk i E-wydania;557955
 Tele Świat;348;Druk i E-wydania;607105
 Tele Świat;349;Druk i E-wydania;531805
 Tele Świat;350;Druk i E-wydania;598001
-Tele Świat;370;współczytelnictwo;0
+Tele Świat;350;współczytelnictwo;0
 Tele Świat;351;Druk i E-wydania;467036
 Tele Świat;352;Druk i E-wydania;466749
 Tele Świat;353;Druk i E-wydania;461298
@@ -6583,7 +6583,7 @@ Tele Magazyn;349;www;3407832
 Tele Magazyn;349;www Mobile;3112506
 Tele Magazyn;349;www PC;564732
 Tele Magazyn;350;Druk i E-wydania;668130
-Tele Magazyn;370;współczytelnictwo;0,15
+Tele Magazyn;350;współczytelnictwo;0,15
 Tele Magazyn;350;www;3090150
 Tele Magazyn;350;www Mobile;2812482
 Tele Magazyn;350;www PC;532332
@@ -6688,7 +6688,7 @@ Tele Max;347;Druk i E-wydania;334442
 Tele Max;348;Druk i E-wydania;353548
 Tele Max;349;Druk i E-wydania;227723
 Tele Max;350;Druk i E-wydania;219315
-Tele Max;370;współczytelnictwo;0
+Tele Max;350;współczytelnictwo;0
 Tele Max;351;Druk i E-wydania;263497
 Tele Max;352;Druk i E-wydania;221040
 Tele Max;353;Druk i E-wydania;283229
@@ -6740,7 +6740,7 @@ Tele Tydzień;347;Druk i E-wydania;2611676
 Tele Tydzień;348;Druk i E-wydania;2631568
 Tele Tydzień;349;Druk i E-wydania;2775299
 Tele Tydzień;350;Druk i E-wydania;2363252
-Tele Tydzień;370;współczytelnictwo;0,27
+Tele Tydzień;350;współczytelnictwo;0,27
 Tele Tydzień;351;Druk i E-wydania;2407638
 Tele Tydzień;352;Druk i E-wydania;2575977
 Tele Tydzień;353;Druk i E-wydania;2706159
@@ -6812,7 +6812,7 @@ Tina;349;www;620946
 Tina;349;www Mobile;591624
 Tina;349;www PC;32400
 Tina;350;Druk i E-wydania;594184
-Tina;370;współczytelnictwo;0,02
+Tina;350;współczytelnictwo;0,02
 Tina;350;www;910926
 Tina;350;www Mobile;866052
 Tina;350;www PC;55566
@@ -6917,7 +6917,7 @@ To & Owo;347;Druk i E-wydania;658279
 To & Owo;348;Druk i E-wydania;1060946
 To & Owo;349;Druk i E-wydania;644184
 To & Owo;350;Druk i E-wydania;711859
-To & Owo;370;współczytelnictwo;0
+To & Owo;350;współczytelnictwo;0
 To & Owo;351;Druk i E-wydania;639752
 To & Owo;352;Druk i E-wydania;763331
 To & Owo;353;Druk i E-wydania;748847
@@ -6959,7 +6959,7 @@ TV14;347;Druk i E-wydania;433983
 TV14;348;Druk i E-wydania;462619
 TV14;349;Druk i E-wydania;270187
 TV14;350;Druk i E-wydania;274525
-TV14;370;współczytelnictwo;0
+TV14;350;współczytelnictwo;0
 TV14;351;Druk i E-wydania;257206
 TV14;352;Druk i E-wydania;314717
 TV14;353;Druk i E-wydania;276098
@@ -7007,7 +7007,7 @@ Twój Styl;347;Druk i E-wydania;1006964
 Twój Styl;348;Druk i E-wydania;617738
 Twój Styl;349;Druk i E-wydania;1153667
 Twój Styl;350;Druk i E-wydania;658961
-Twój Styl;370;współczytelnictwo;0,27
+Twój Styl;350;współczytelnictwo;0,27
 Twój Styl;350;www;1118448
 Twój Styl;350;www Mobile;1080216
 Twój Styl;350;www PC;98334
@@ -7103,7 +7103,7 @@ Twoje Imperium;347;Druk i E-wydania;592595
 Twoje Imperium;348;Druk i E-wydania;599377
 Twoje Imperium;349;Druk i E-wydania;847631
 Twoje Imperium;350;Druk i E-wydania;713698
-Twoje Imperium;370;współczytelnictwo;0
+Twoje Imperium;350;współczytelnictwo;0
 Twoje Imperium;351;Druk i E-wydania;507854
 Twoje Imperium;352;Druk i E-wydania;738456
 Twoje Imperium;353;Druk i E-wydania;632275
@@ -7173,7 +7173,7 @@ Tygodnik Angora;348;www;3564
 Tygodnik Angora;348;www PC;3564
 Tygodnik Angora;349;Druk i E-wydania;1848137
 Tygodnik Angora;350;Druk i E-wydania;1696432
-Tygodnik Angora;370;współczytelnictwo;0,34
+Tygodnik Angora;350;współczytelnictwo;0,34
 Tygodnik Angora;350;www;3564
 Tygodnik Angora;350;www PC;3564
 Tygodnik Angora;351;Druk i E-wydania;1311730
@@ -7242,7 +7242,7 @@ Viva;349;www;2703942
 Viva;349;www Mobile;2623590
 Viva;349;www PC;197154
 Viva;350;Druk i E-wydania;1242761
-Viva;370;współczytelnictwo;0,29
+Viva;350;współczytelnictwo;0,29
 Viva;350;www;2957310
 Viva;350;www Mobile;2847636
 Viva;350;www PC;237006
@@ -7374,7 +7374,7 @@ Wysokie Obcasy (Gazeta Wyborcza);349;www;994032
 Wysokie Obcasy (Gazeta Wyborcza);349;www Mobile;805140
 Wysokie Obcasy (Gazeta Wyborcza);349;www PC;223884
 Wysokie Obcasy (Gazeta Wyborcza);350;Druk i E-wydania;44625
-Wysokie Obcasy (Gazeta Wyborcza);370;współczytelnictwo;0,51
+Wysokie Obcasy (Gazeta Wyborcza);350;współczytelnictwo;0,51
 Wysokie Obcasy (Gazeta Wyborcza);350;www;1622592
 Wysokie Obcasy (Gazeta Wyborcza);350;www Mobile;1417662
 Wysokie Obcasy (Gazeta Wyborcza);350;www PC;267462
@@ -7451,7 +7451,7 @@ Wysokie Obcasy Extra;348;www PC;200070
 Wysokie Obcasy Extra;349;www;994032
 Wysokie Obcasy Extra;349;www Mobile;805140
 Wysokie Obcasy Extra;349;www PC;223884
-Wysokie Obcasy Extra;370;współczytelnictwo;0,51
+Wysokie Obcasy Extra;350;współczytelnictwo;0,51
 Wysokie Obcasy Extra;350;www;1622592
 Wysokie Obcasy Extra;350;www Mobile;1417662
 Wysokie Obcasy Extra;350;www PC;267462
@@ -7529,7 +7529,7 @@ Z Życia Wzięte;347;Druk i E-wydania;875011
 Z Życia Wzięte;348;Druk i E-wydania;1013039
 Z Życia Wzięte;349;Druk i E-wydania;882707
 Z Życia Wzięte;350;Druk i E-wydania;916747
-Z Życia Wzięte;370;współczytelnictwo;0
+Z Życia Wzięte;350;współczytelnictwo;0
 Z Życia Wzięte;351;Druk i E-wydania;880397
 Z Życia Wzięte;352;Druk i E-wydania;1297691
 Z Życia Wzięte;353;Druk i E-wydania;1136469
@@ -7607,7 +7607,7 @@ Zwierciadło;349;www;759618
 Zwierciadło;349;www Mobile;697734
 Zwierciadło;349;www PC;67230
 Zwierciadło;350;Druk i E-wydania;228187
-Zwierciadło;370;współczytelnictwo;0,37
+Zwierciadło;350;współczytelnictwo;0,37
 Zwierciadło;350;www;1177416
 Zwierciadło;350;www Mobile;1114722
 Zwierciadło;350;www PC;71766
@@ -8330,3 +8330,1277 @@ Z Życia Wzięte;370;Druk i E-wydania;1135346,398
 Zwierciadło;370;Druk i E-wydania;642652,6971
 Życie na Gorąco;370;Druk i E-wydania;2030800,939
 Wysokie Obcasy Extra;370;Druk i E-wydania;454839,4756
+Dziennik Bałtycki;371;www;1 451 358
+Dziennik Gazeta Prawna;371;www;6 043 572
+Dziennik Łódzki;371;www;1 386 558
+Dziennik Polski;371;www;924 696
+Dziennik Zachodni;371;www;2 427 570
+Echo Dnia;371;www;1 408 914
+Elle;371;www;1 646 568
+Express Bydgoski;371;www;1 372 302
+Express Ilustrowany;371;www;1 309 122
+Fakt Gazeta Codzienna;371;www;8 426 754
+Forbes. Profit;371;www;1 812 780
+Gazeta Krakowska;371;www;2 242 728
+Gazeta Pomorska;371;www;3 752 082
+Gazeta Wrocławska;371;www;2 237 382
+Gazeta Współczesna;371;www;447 444
+Gazeta Wyborcza;371;www;6 691 572
+Glamour;371;www;1 078 272
+Gość Niedzielny;371;www;351 378
+Kobieta i Życie;371;www;96 714
+Kurier Lubelski;371;www;998 892
+Kurier Poranny;371;www;864 432
+Murator;371;www;1 262 952
+Newsweek Polska;371;www;2 918 106
+Nowa Trybuna Opolska;371;www;1 446 984
+Nowiny;371;www;1 310 094
+Nowości - Dziennik Toruński;371;www;1 305 882
+Olivia;371;www;96 714
+Pani Domu;371;www;96 714
+Parkiet Gazeta Giełdy;371;www;579 474
+Polityka;371;www;937 980
+Polska Metropolia Warszawska;371;www;162
+Poradnik 50+;371;www;96 714
+Poradnik Domowy;371;www;96 714
+Przyjaciółka;371;www;96 714
+Puls Biznesu;371;www;1 014 606
+Rzeczpospolita;371;www;3 830 976
+Sieci;371;www;1 091 232
+Super Express;371;www;6 278 148
+Świat Kobiety;371;www;96 714
+Tele Magazyn;371;www;2 775 546
+Tina;371;www;96 714
+Twój Styl;371;www;446 796
+Viva;371;www;1 267 650
+Wysokie Obcasy Extra;371;www;1 510 326
+Zwierciadło;371;www;1 311 066
+Dziennik Bałtycki;371;www Mobile;1 354 158
+Dziennik Gazeta Prawna;371;www Mobile;5 840 424
+Dziennik Łódzki;371;www Mobile;1 330 506
+Dziennik Polski;371;www Mobile;857 790
+Dziennik Zachodni;371;www Mobile;2 355 966
+Echo Dnia;371;www Mobile;1 259 550
+Elle;371;www Mobile;1 563 624
+Express Bydgoski;371;www Mobile;1 213 866
+Express Ilustrowany;371;www Mobile;1 206 738
+Fakt Gazeta Codzienna;371;www Mobile;8 135 478
+Forbes. Profit;371;www Mobile;1 716 552
+Gazeta Krakowska;371;www Mobile;2 126 574
+Gazeta Pomorska;371;www Mobile;3 545 856
+Gazeta Wrocławska;371;www Mobile;2 123 658
+Gazeta Współczesna;371;www Mobile;408 564
+Gazeta Wyborcza;371;www Mobile;6 446 466
+Glamour;371;www Mobile;1 013 472
+Gość Niedzielny;371;www Mobile;298 404
+Kobieta i Życie;371;www Mobile;90 720
+Kurier Lubelski;371;www Mobile;926 154
+Kurier Poranny;371;www Mobile;760 590
+Murator;371;www Mobile;1 089 612
+Newsweek Polska;371;www Mobile;2 835 162
+Nowa Trybuna Opolska;371;www Mobile;1 369 548
+Nowiny;371;www Mobile;1 203 984
+Nowości - Dziennik Toruński;371;www Mobile;1 113 102
+Olivia;371;www Mobile;90 720
+Pani Domu;371;www Mobile;90 720
+Parkiet Gazeta Giełdy;371;www Mobile;538 002
+Polityka;371;www Mobile;760 428
+Polska Metropolia Warszawska;371;www Mobile;162
+Poradnik 50+;371;www Mobile;90 720
+Poradnik Domowy;371;www Mobile;90 720
+Przyjaciółka;371;www Mobile;90 720
+Puls Biznesu;371;www Mobile;763 992
+Rzeczpospolita;371;www Mobile;3 481 218
+Sieci;371;www Mobile;849 204
+Super Express;371;www Mobile;6 111 450
+Świat Kobiety;371;www Mobile;90 720
+Tele Magazyn;371;www Mobile;2 593 458
+Tina;371;www Mobile;90 720
+Twój Styl;371;www Mobile;415 206
+Viva;371;www Mobile;1 148 418
+Wysokie Obcasy Extra;371;www Mobile;1 360 962
+Zwierciadło;371;www Mobile;1 262 628
+Dziennik Bałtycki;371;www PC;141 102
+Dziennik Gazeta Prawna;371;www PC;588 708
+Dziennik Łódzki;371;www PC;87 966
+Dziennik Polski;371;www PC;96 714
+Dziennik Zachodni;371;www PC;225 666
+Echo Dnia;371;www PC;258 228
+Elle;371;www PC;130 896
+Express Bydgoski;371;www PC;259 362
+Express Ilustrowany;371;www PC;151 470
+Fakt Gazeta Codzienna;371;www PC;1 842 102
+Forbes. Profit;371;www PC;169 128
+Gazeta Krakowska;371;www PC;253 044
+Gazeta Pomorska;371;www PC;591 462
+Gazeta Wrocławska;371;www PC;266 976
+Gazeta Współczesna;371;www PC;42 120
+Gazeta Wyborcza;371;www PC;1 180 494
+Glamour;371;www PC;74 196
+Gość Niedzielny;371;www PC;54 432
+Kobieta i Życie;371;www PC;5 994
+Kurier Lubelski;371;www PC;102 060
+Kurier Poranny;371;www PC;133 002
+Murator;371;www PC;205 578
+Newsweek Polska;371;www PC;300 348
+Nowa Trybuna Opolska;371;www PC;142 560
+Nowiny;371;www PC;190 188
+Nowości - Dziennik Toruński;371;www PC;253 206
+Olivia;371;www PC;5 994
+Pani Domu;371;www PC;5 994
+Parkiet Gazeta Giełdy;371;www PC;47 466
+Polityka;371;www PC;207 522
+Poradnik Domowy;371;www PC;5 994
+Przyjaciółka;371;www PC;5 994
+Puls Biznesu;371;www PC;5 994
+Rzeczpospolita;371;www PC;276 696
+Sieci;371;www PC;664 524
+Super Express;371;www PC;287 874
+Świat Kobiety;371;www PC;698 706
+Tele Magazyn;371;www PC;5 994
+Tina;371;www PC;409 374
+Twój Styl;371;www PC;5 994
+Tygodnik Angora;371;www PC;33 858
+Viva;371;www PC;154 710
+Wysokie Obcasy Extra;371;www PC;256 122
+Zwierciadło;371;www PC;69 174
+Dziennik Bałtycki;372;www;1 385 100
+Dziennik Gazeta Prawna;372;www;5 498 280
+Dziennik Łódzki;372;www;1 096 416
+Dziennik Polski;372;www;791 856
+Dziennik Zachodni;372;www;2 234 466
+Echo Dnia;372;www;1 600 074
+Elle;372;www;1 585 170
+Express Bydgoski;372;www;1 048 302
+Express Ilustrowany;372;www;911 736
+Fakt Gazeta Codzienna;372;www;8 587 296
+Forbes. Profit;372;www;1 747 332
+Gazeta Krakowska;372;www;1 449 900
+Gazeta Pomorska;372;www;2 826 252
+Gazeta Wrocławska;372;www;2 515 374
+Gazeta Współczesna;372;www;333 882
+Gazeta Wyborcza;372;www;6 350 076
+Glamour;372;www;1 262 790
+Gość Niedzielny;372;www;423 792
+Kobieta i Życie;372;www;133 812
+Kurier Lubelski;372;www;860 058
+Kurier Poranny;372;www;694 656
+Murator;372;www;1 106 460
+Newsweek Polska;372;www;2 560 248
+Nowa Trybuna Opolska;372;www;1 334 394
+Nowiny;372;www;1 205 928
+Nowości - Dziennik Toruński;372;www;1 749 276
+Olivia;372;www;133 812
+Pani Domu;372;www;133 812
+Parkiet Gazeta Giełdy;372;www;603 288
+Polityka;372;www;643 464
+Poradnik 50+;372;www;133 812
+Poradnik Domowy;372;www;133 812
+Przyjaciółka;372;www;133 812
+Puls Biznesu;372;www;971 028
+Rzeczpospolita;372;www;3 854 142
+Sieci;372;www;1 081 836
+Super Express;372;www;5 815 152
+Świat Kobiety;372;www;133 812
+Tele Magazyn;372;www;2 051 082
+Tina;372;www;133 812
+Twój Styl;372;www;415 044
+Viva;372;www;1 449 738
+Wysokie Obcasy Extra;372;www;1 298 592
+Zwierciadło;372;www;1 541 106
+Dziennik Bałtycki;372;www Mobile;1 304 100
+Dziennik Gazeta Prawna;372;www Mobile;5 284 278
+Dziennik Łódzki;372;www Mobile;1 047 816
+Dziennik Polski;372;www Mobile;724 950
+Dziennik Zachodni;372;www Mobile;2 153 790
+Echo Dnia;372;www Mobile;1 450 224
+Elle;372;www Mobile;1 498 338
+Express Bydgoski;372;www Mobile;889 866
+Express Ilustrowany;372;www Mobile;829 116
+Fakt Gazeta Codzienna;372;www Mobile;8 292 942
+Forbes. Profit;372;www Mobile;1 675 404
+Gazeta Krakowska;372;www Mobile;1 358 046
+Gazeta Pomorska;372;www Mobile;2 590 380
+Gazeta Wrocławska;372;www Mobile;2 420 604
+Gazeta Współczesna;372;www Mobile;312 660
+Gazeta Wyborcza;372;www Mobile;6 020 082
+Glamour;372;www Mobile;1 215 324
+Gość Niedzielny;372;www Mobile;340 524
+Kobieta i Życie;372;www Mobile;128 304
+Kurier Lubelski;372;www Mobile;810 810
+Kurier Poranny;372;www Mobile;611 064
+Murator;372;www Mobile;951 102
+Newsweek Polska;372;www Mobile;2 444 256
+Nowa Trybuna Opolska;372;www Mobile;1 272 348
+Nowiny;372;www Mobile;1 112 616
+Nowości - Dziennik Toruński;372;www Mobile;1 658 718
+Olivia;372;www Mobile;128 304
+Pani Domu;372;www Mobile;128 304
+Parkiet Gazeta Giełdy;372;www Mobile;554 850
+Polityka;372;www Mobile;554 364
+Poradnik 50+;372;www Mobile;128 304
+Poradnik Domowy;372;www Mobile;128 304
+Przyjaciółka;372;www Mobile;128 304
+Puls Biznesu;372;www Mobile;731 916
+Rzeczpospolita;372;www Mobile;3 543 750
+Sieci;372;www Mobile;821 826
+Super Express;372;www Mobile;5 643 108
+Świat Kobiety;372;www Mobile;128 304
+Tele Magazyn;372;www Mobile;1 836 270
+Tina;372;www Mobile;128 304
+Twój Styl;372;www Mobile;394 956
+Viva;372;www Mobile;1 332 450
+Wysokie Obcasy Extra;372;www Mobile;1 126 710
+Zwierciadło;372;www Mobile;1 470 636
+Dziennik Bałtycki;372;www PC;110 808
+Dziennik Gazeta Prawna;372;www PC;563 436
+Dziennik Łódzki;372;www PC;66 906
+Dziennik Polski;372;www PC;94 122
+Dziennik Zachodni;372;www PC;190 836
+Echo Dnia;372;www PC;268 434
+Elle;372;www PC;125 874
+Express Bydgoski;372;www PC;214 326
+Express Ilustrowany;372;www PC;114 372
+Fakt Gazeta Codzienna;372;www PC;1 892 160
+Forbes. Profit;372;www PC;141 750
+Gazeta Krakowska;372;www PC;172 368
+Gazeta Pomorska;372;www PC;479 196
+Gazeta Wrocławska;372;www PC;225 342
+Gazeta Współczesna;372;www PC;25 272
+Gazeta Wyborcza;372;www PC;1 267 974
+Glamour;372;www PC;59 616
+Gość Niedzielny;372;www PC;85 374
+Kobieta i Życie;372;www PC;5 508
+Kurier Lubelski;372;www PC;74 520
+Kurier Poranny;372;www PC;107 892
+Murator;372;www PC;173 664
+Newsweek Polska;372;www PC;302 292
+Nowa Trybuna Opolska;372;www PC;118 260
+Nowiny;372;www PC;156 330
+Nowości - Dziennik Toruński;372;www PC;162 810
+Olivia;372;www PC;5 508
+Pani Domu;372;www PC;5 508
+Parkiet Gazeta Giełdy;372;www PC;52 812
+Polityka;372;www PC;132 678
+Poradnik 50+;372;www PC;5 508
+Poradnik Domowy;372;www PC;5 508
+Przyjaciółka;372;www PC;5 508
+Puls Biznesu;372;www PC;260 010
+Rzeczpospolita;372;www PC;624 024
+Sieci;372;www PC;308 124
+Super Express;372;www PC;601 668
+Świat Kobiety;372;www PC;5 508
+Tele Magazyn;372;www PC;364 500
+Tina;372;www PC;5 508
+Twój Styl;372;www PC;21 060
+Viva;372;www PC;142 560
+Wysokie Obcasy Extra;372;www PC;230 202
+Zwierciadło;372;www PC;99 630
+Dziennik Bałtycki;373;www;1 147 284
+Dziennik Gazeta Prawna;373;www;6 618 834
+Dziennik Łódzki;373;www;1 017 522
+Dziennik Polski;373;www;805 950
+Dziennik Zachodni;373;www;1 803 384
+Echo Dnia;373;www;1 569 294
+Elle;373;www;1 502 712
+Express Bydgoski;373;www;923 562
+Express Ilustrowany;373;www;840 942
+Fakt Gazeta Codzienna;373;www;8 400 672
+Forbes. Profit;373;www;1 921 644
+Gazeta Krakowska;373;www;1 275 264
+Gazeta Pomorska;373;www;2 003 130
+Gazeta Wrocławska;373;www;1 922 130
+Gazeta Współczesna;373;www;408 402
+Gazeta Wyborcza;373;www;6 425 892
+Glamour;373;www;856 332
+Gość Niedzielny;373;www;247 698
+Kobieta i Życie;373;www;125 226
+Kurier Lubelski;373;www;784 404
+Kurier Poranny;373;www;726 732
+Murator;373;www;949 158
+Newsweek Polska;373;www;2 078 946
+Nowa Trybuna Opolska;373;www;1 211 598
+Nowiny;373;www;1 089 774
+Nowości - Dziennik Toruński;373;www;1 589 382
+Olivia;373;www;125 226
+Pani Domu;373;www;125 226
+Parkiet Gazeta Giełdy;373;www;461 862
+Polityka;373;www;763 506
+Poradnik 50+;373;www;125 226
+Poradnik Domowy;373;www;125 226
+Przyjaciółka;373;www;125 226
+Puls Biznesu;373;www;1 164 456
+Rzeczpospolita;373;www;4 286 034
+Sieci;373;www;801 414
+Super Express;373;www;6 177 708
+Świat Kobiety;373;www;125 226
+Tele Magazyn;373;www;2 347 866
+Tina;373;www;125 226
+Twój Styl;373;www;546 426
+Viva;373;www;1 460 106
+Wysokie Obcasy Extra;373;www;1 428 354
+Zwierciadło;373;www;1 519 722
+Dziennik Bałtycki;373;www Mobile;1 060 452
+Dziennik Gazeta Prawna;373;www Mobile;6 424 596
+Dziennik Łódzki;373;www Mobile;964 386
+Dziennik Polski;373;www Mobile;740 016
+Dziennik Zachodni;373;www Mobile;1 730 322
+Echo Dnia;373;www Mobile;1 426 572
+Elle;373;www Mobile;1 400 814
+Express Bydgoski;373;www Mobile;792 180
+Express Ilustrowany;373;www Mobile;759 456
+Fakt Gazeta Codzienna;373;www Mobile;8 062 902
+Forbes. Profit;373;www Mobile;1 848 582
+Gazeta Krakowska;373;www Mobile;1 179 684
+Gazeta Pomorska;373;www Mobile;1 718 172
+Gazeta Wrocławska;373;www Mobile;1 804 032
+Gazeta Współczesna;373;www Mobile;372 114
+Gazeta Wyborcza;373;www Mobile;6 164 262
+Glamour;373;www Mobile;814 212
+Gość Niedzielny;373;www Mobile;179 658
+Kobieta i Życie;373;www Mobile;118 098
+Kurier Lubelski;373;www Mobile;710 694
+Kurier Poranny;373;www Mobile;642 330
+Murator;373;www Mobile;796 392
+Newsweek Polska;373;www Mobile;1 918 728
+Nowa Trybuna Opolska;373;www Mobile;1 151 982
+Nowiny;373;www Mobile;991 440
+Nowości - Dziennik Toruński;373;www Mobile;1 482 624
+Olivia;373;www Mobile;118 098
+Pani Domu;373;www Mobile;118 098
+Parkiet Gazeta Giełdy;373;www Mobile;419 742
+Polityka;373;www Mobile;599 724
+Poradnik 50+;373;www Mobile;118 098
+Poradnik Domowy;373;www Mobile;118 098
+Przyjaciółka;373;www Mobile;118 098
+Puls Biznesu;373;www Mobile;871 560
+Rzeczpospolita;373;www Mobile;3 951 504
+Sieci;373;www Mobile;598 428
+Super Express;373;www Mobile;5 988 168
+Świat Kobiety;373;www Mobile;118 098
+Tele Magazyn;373;www Mobile;2 135 160
+Tina;373;www Mobile;118 098
+Twój Styl;373;www Mobile;492 804
+Viva;373;www Mobile;1 353 834
+Wysokie Obcasy Extra;373;www Mobile;1 268 136
+Zwierciadło;373;www Mobile;1 453 788
+Dziennik Bałtycki;373;www PC;109 512
+Dziennik Gazeta Prawna;373;www PC;625 644
+Dziennik Łódzki;373;www PC;71 118
+Dziennik Polski;373;www PC;89 586
+Dziennik Zachodni;373;www PC;176 580
+Echo Dnia;373;www PC;250 128
+Elle;373;www PC;135 756
+Express Bydgoski;373;www PC;166 860
+Express Ilustrowany;373;www PC;103 518
+Fakt Gazeta Codzienna;373;www PC;1 946 592
+Forbes. Profit;373;www PC;156 168
+Gazeta Krakowska;373;www PC;167 832
+Gazeta Pomorska;373;www PC;445 662
+Gazeta Wrocławska;373;www PC;250 938
+Gazeta Współczesna;373;www PC;40 986
+Gazeta Wyborcza;373;www PC;1 116 666
+Glamour;373;www PC;53 622
+Gość Niedzielny;373;www PC;69 822
+Kobieta i Życie;373;www PC;7 290
+Kurier Lubelski;373;www PC;99 468
+Kurier Poranny;373;www PC;109 350
+Murator;373;www PC;171 720
+Newsweek Polska;373;www PC;347 166
+Nowa Trybuna Opolska;373;www PC;119 070
+Nowiny;373;www PC;165 078
+Nowości - Dziennik Toruński;373;www PC;176 256
+Olivia;373;www PC;7 290
+Pani Domu;373;www PC;7 290
+Parkiet Gazeta Giełdy;373;www PC;49 410
+Polityka;373;www PC;178 686
+Poradnik 50+;373;www PC;7 290
+Poradnik Domowy;373;www PC;7 290
+Przyjaciółka;373;www PC;7 290
+Puls Biznesu;373;www PC;339 876
+Rzeczpospolita;373;www PC;706 482
+Sieci;373;www PC;242 028
+Super Express;373;www PC;624 348
+Świat Kobiety;373;www PC;7 290
+Tele Magazyn;373;www PC;403 542
+Tina;373;www PC;7 290
+Twój Styl;373;www PC;61 236
+Viva;373;www PC;141 588
+Wysokie Obcasy Extra;373;www PC;251 586
+Zwierciadło;373;www PC;104 652
+Wysokie Obcasy (Gazeta Wyborcza);373;www;1 359 504
+Wysokie Obcasy (Gazeta Wyborcza);373;www Mobile;1 183 410
+Wysokie Obcasy (Gazeta Wyborcza);373;www PC;225 342
+Wysokie Obcasy (Gazeta Wyborcza);373;www;1 295 352
+Wysokie Obcasy (Gazeta Wyborcza);373;www Mobile;1 148 580
+Wysokie Obcasy (Gazeta Wyborcza);373;www PC;218 862
+Wysokie Obcasy (Gazeta Wyborcza);373;www;1 235 088
+Wysokie Obcasy (Gazeta Wyborcza);373;www Mobile;1 087 992
+Wysokie Obcasy (Gazeta Wyborcza);373;www PC;206 874
+100 Rad;371;Druk i E-wydania;272113,7107
+Cała Ty;371;Druk i E-wydania;263924,311
+Chwila dla Ciebie;371;Druk i E-wydania;1645871,261
+Dobry Tydzień;371;Druk i E-wydania;94671,6681
+Dziennik Bałtycki;371;Druk i E-wydania;52915,2267
+Dziennik Gazeta Prawna;371;Druk i E-wydania;581130,1727
+Dziennik Łódzki;371;Druk i E-wydania;79308,42431
+Dziennik Polski;371;Druk i E-wydania;6732,740269
+Dziennik Zachodni;371;Druk i E-wydania;254245,5403
+Echo Dnia;371;Druk i E-wydania;128429,7979
+Elle;371;Druk i E-wydania;144100,6178
+Express Bydgoski;371;Druk i E-wydania;11698,90588
+Express Ilustrowany;371;Druk i E-wydania;36610,16363
+Fakt Gazeta Codzienna;371;Druk i E-wydania;1939597,531
+Forbes. Profit;371;Druk i E-wydania;334840,3181
+Gazeta Krakowska;371;Druk i E-wydania;92301,6907
+Gazeta Lubuska;371;Druk i E-wydania;69447,00439
+Gazeta Pomorska;371;Druk i E-wydania;0
+Gazeta Wrocławska;371;Druk i E-wydania;106911,7562
+Gazeta Współczesna;371;Druk i E-wydania;37689,77502
+Gazeta Wyborcza;371;Druk i E-wydania;1174333,151
+Glamour;371;Druk i E-wydania;689041,3805
+Głos Wielkopolski;371;Druk i E-wydania;136399,4103
+Głos-Dziennik Pomorza;371;Druk i E-wydania;141443,6485
+Gość Niedzielny;371;Druk i E-wydania;671669,4992
+Kobieta i Życie;371;Druk i E-wydania;602268,3235
+Kurier Lubelski;371;Druk i E-wydania;34747,90101
+Kurier Poranny;371;Druk i E-wydania;80062,59227
+Magazyn Telewizyjny Kurier TV;371;Druk i E-wydania;247319,3729
+Mam Ogród;371;Druk i E-wydania;429712,3948
+Motor;371;Druk i E-wydania;669011,5762
+Murator;371;Druk i E-wydania;454123,8907
+Na Żywo;371;Druk i E-wydania;740893,7655
+Newsweek Polska;371;Druk i E-wydania;1187709,547
+Nostalgia;371;Druk i E-wydania;129089,5014
+Nowa Trybuna Opolska;371;Druk i E-wydania;35527,9972
+Nowiny;371;Druk i E-wydania;76097,87549
+Nowości - Dziennik Toruński;371;Druk i E-wydania;56207,03292
+Olivia;371;Druk i E-wydania;615763,331
+Pani;371;Druk i E-wydania;412493,078
+Pani Domu;371;Druk i E-wydania;1062854,876
+Parkiet Gazeta Giełdy;371;Druk i E-wydania;90095,95544
+Polityka;371;Druk i E-wydania;754502,778
+Polska Metropolia Warszawska;371;Druk i E-wydania;37114,81956
+Poradnik 50+;371;Druk i E-wydania;249961,7137
+Poradnik Domowy;371;Druk i E-wydania;646113,2204
+Przyjaciółka;371;Druk i E-wydania;1225126,76
+Puls Biznesu;371;Druk i E-wydania;276831,5878
+Retro;371;Druk i E-wydania;144403,3358
+Rewia;371;Druk i E-wydania;352188,0525
+Rzeczpospolita;371;Druk i E-wydania;568047,7859
+Show;371;Druk i E-wydania;233485,2112
+Sieci;371;Druk i E-wydania;263820,5981
+Sukcesy i Porażki;371;Druk i E-wydania;311230,0244
+Super Express;371;Druk i E-wydania;1446174,966
+Super TV;371;Druk i E-wydania;271388,044
+Świat & Ludzie;371;Druk i E-wydania;250694,3798
+Świat Kobiety;371;Druk i E-wydania;373023,0535
+Świat Seriali;371;Druk i E-wydania;343570,2882
+Świat Wiedzy;371;Druk i E-wydania;1018844,262
+Tele Magazyn;371;Druk i E-wydania;41480,38937
+Tele Max;371;Druk i E-wydania;153519,3685
+Tele Świat;371;Druk i E-wydania;527480,1028
+Tele Tydzień;371;Druk i E-wydania;2356128,954
+Tina;371;Druk i E-wydania;545977,1363
+To & Owo;371;Druk i E-wydania;678257,52
+TV14;371;Druk i E-wydania;206424,8608
+Twoje Imperium;371;Druk i E-wydania;389998,1122
+Twój Styl;371;Druk i E-wydania;1113002,529
+Tygodnik Angora;371;Druk i E-wydania;1809914,991
+Viva;371;Druk i E-wydania;1521786,79
+Wysokie Obcasy (Gazeta Wyborcza);371;Druk i E-wydania;469185,892
+Z Życia Wzięte;371;Druk i E-wydania;983299,351
+Zwierciadło;371;Druk i E-wydania;607311,932
+Życie na Gorąco;371;Druk i E-wydania;1702116,871
+Wysokie Obcasy Extra;371;Druk i E-wydania;545940,862
+100 Rad;372;Druk i E-wydania;447216,6869
+Cała Ty;372;Druk i E-wydania;340606,3775
+Chwila dla Ciebie;372;Druk i E-wydania;1102472,092
+Dobry Tydzień;372;Druk i E-wydania;276387,3302
+Dziennik Bałtycki;372;Druk i E-wydania;53158,37087
+Dziennik Gazeta Prawna;372;Druk i E-wydania;445256,1665
+Dziennik Łódzki;372;Druk i E-wydania;66321,95234
+Dziennik Polski;372;Druk i E-wydania;58936,78255
+Dziennik Zachodni;372;Druk i E-wydania;342015,2101
+Echo Dnia;372;Druk i E-wydania;158941,2081
+Elle;372;Druk i E-wydania;406327,046
+Express Bydgoski;372;Druk i E-wydania;32271,14378
+Express Ilustrowany;372;Druk i E-wydania;84784,7834
+Fakt Gazeta Codzienna;372;Druk i E-wydania;1662528,875
+Forbes. Profit;372;Druk i E-wydania;494613,3932
+Gazeta Krakowska;372;Druk i E-wydania;148868,2399
+Gazeta Lubuska;372;Druk i E-wydania;77331,02843
+Gazeta Pomorska;372;Druk i E-wydania;0
+Gazeta Wrocławska;372;Druk i E-wydania;349220,4415
+Gazeta Współczesna;372;Druk i E-wydania;0
+Gazeta Wyborcza;372;Druk i E-wydania;1217566,395
+Glamour;372;Druk i E-wydania;631997,6072
+Głos Wielkopolski;372;Druk i E-wydania;135312,8668
+Głos-Dziennik Pomorza;372;Druk i E-wydania;138184,9349
+Gość Niedzielny;372;Druk i E-wydania;510190,3305
+Kobieta i Życie;372;Druk i E-wydania;531285,1645
+Kurier Lubelski;372;Druk i E-wydania;73058,9939
+Kurier Poranny;372;Druk i E-wydania;112753,5915
+Magazyn Telewizyjny Kurier TV;372;Druk i E-wydania;187606,6025
+Mam Ogród;372;Druk i E-wydania;361042,5016
+Motor;372;Druk i E-wydania;306079,2433
+Murator;372;Druk i E-wydania;401537,0898
+Na Żywo;372;Druk i E-wydania;404243,5547
+Newsweek Polska;372;Druk i E-wydania;1146547,614
+Nostalgia;372;Druk i E-wydania;162251,9121
+Nowa Trybuna Opolska;372;Druk i E-wydania;72363,27386
+Nowiny;372;Druk i E-wydania;125698,1182
+Nowości - Dziennik Toruński;372;Druk i E-wydania;6822,526747
+Olivia;372;Druk i E-wydania;471656,008
+Pani;372;Druk i E-wydania;269165,1989
+Pani Domu;372;Druk i E-wydania;821221,6173
+Parkiet Gazeta Giełdy;372;Druk i E-wydania;67706,24175
+Polityka;372;Druk i E-wydania;710926,6635
+Polska Metropolia Warszawska;372;Druk i E-wydania;43910,87061
+Poradnik 50+;372;Druk i E-wydania;289426,7858
+Poradnik Domowy;372;Druk i E-wydania;415413,665
+Przyjaciółka;372;Druk i E-wydania;968774,3398
+Puls Biznesu;372;Druk i E-wydania;221984,9995
+Retro;372;Druk i E-wydania;176974,2693
+Rewia;372;Druk i E-wydania;235494,785
+Rzeczpospolita;372;Druk i E-wydania;454665,5162
+Show;372;Druk i E-wydania;361809,0828
+Sieci;372;Druk i E-wydania;248627,0122
+Sukcesy i Porażki;372;Druk i E-wydania;427215,496
+Super Express;372;Druk i E-wydania;1008501,277
+Super TV;372;Druk i E-wydania;228637,8637
+Świat & Ludzie;372;Druk i E-wydania;270866,7669
+Świat Kobiety;372;Druk i E-wydania;545874,1389
+Świat Seriali;372;Druk i E-wydania;206018,6316
+Świat Wiedzy;372;Druk i E-wydania;982834,3013
+Tele Magazyn;372;Druk i E-wydania;740457,0667
+Tele Max;372;Druk i E-wydania;177437,4485
+Tele Świat;372;Druk i E-wydania;705895,0116
+Tele Tydzień;372;Druk i E-wydania;2379020,364
+Tina;372;Druk i E-wydania;249617,5229
+To & Owo;372;Druk i E-wydania;812503,3167
+TV14;372;Druk i E-wydania;182437,0838
+Twoje Imperium;372;Druk i E-wydania;715788,9076
+Twój Styl;372;Druk i E-wydania;996454,9645
+Tygodnik Angora;372;Druk i E-wydania;1707457,686
+Viva;372;Druk i E-wydania;1055933,414
+Wysokie Obcasy (Gazeta Wyborcza);372;Druk i E-wydania;596417,5937
+Z Życia Wzięte;372;Druk i E-wydania;1079827,026
+Zwierciadło;372;Druk i E-wydania;363013,3319
+Życie na Gorąco;372;Druk i E-wydania;1886451,618
+Wysokie Obcasy Extra;372;Druk i E-wydania;632045,3858
+100 Rad;373;Druk i E-wydania;263009,1206
+Cała Ty;373;Druk i E-wydania;187875,7582
+Chwila dla Ciebie;373;Druk i E-wydania;1030406,162
+Dobry Tydzień;373;Druk i E-wydania;139487,3452
+Dziennik Bałtycki;373;Druk i E-wydania;59299,63859
+Dziennik Gazeta Prawna;373;Druk i E-wydania;702594,2318
+Dziennik Łódzki;373;Druk i E-wydania;169617,9321
+Dziennik Polski;373;Druk i E-wydania;156172,5965
+Dziennik Zachodni;373;Druk i E-wydania;150553,0215
+Echo Dnia;373;Druk i E-wydania;239352,9844
+Elle;373;Druk i E-wydania;371490,2809
+Express Bydgoski;373;Druk i E-wydania;49884,99518
+Express Ilustrowany;373;Druk i E-wydania;57502,65057
+Fakt Gazeta Codzienna;373;Druk i E-wydania;1746421,425
+Forbes. Profit;373;Druk i E-wydania;318028,0341
+Gazeta Krakowska;373;Druk i E-wydania;96566,1388
+Gazeta Lubuska;373;Druk i E-wydania;54218,90844
+Gazeta Pomorska;373;Druk i E-wydania;69665,65604
+Gazeta Wrocławska;373;Druk i E-wydania;141293,4783
+Gazeta Współczesna;373;Druk i E-wydania;24731,89366
+Gazeta Wyborcza;373;Druk i E-wydania;964428,8478
+Glamour;373;Druk i E-wydania;522771,8957
+Głos Wielkopolski;373;Druk i E-wydania;142696,7605
+Głos-Dziennik Pomorza;373;Druk i E-wydania;66466,93507
+Gość Niedzielny;373;Druk i E-wydania;447204,1658
+Kobieta i Życie;373;Druk i E-wydania;499333,3097
+Kurier Lubelski;373;Druk i E-wydania;84853,72544
+Kurier Poranny;373;Druk i E-wydania;82297,31063
+Magazyn Telewizyjny Kurier TV;373;Druk i E-wydania;212208,249
+Mam Ogród;373;Druk i E-wydania;309091,4847
+Motor;373;Druk i E-wydania;403864,5501
+Murator;373;Druk i E-wydania;294422,4875
+Na Żywo;373;Druk i E-wydania;383021,0415
+Newsweek Polska;373;Druk i E-wydania;1450485,698
+Nostalgia;373;Druk i E-wydania;156203,8631
+Nowa Trybuna Opolska;373;Druk i E-wydania;80982,16466
+Nowiny;373;Druk i E-wydania;175444,1632
+Nowości - Dziennik Toruński;373;Druk i E-wydania;0
+Olivia;373;Druk i E-wydania;376098,6639
+Pani;373;Druk i E-wydania;290673,1113
+Pani Domu;373;Druk i E-wydania;820564,3624
+Parkiet Gazeta Giełdy;373;Druk i E-wydania;98077,46307
+Polityka;373;Druk i E-wydania;619870,5327
+Polska Metropolia Warszawska;373;Druk i E-wydania;0
+Poradnik 50+;373;Druk i E-wydania;226459,42
+Poradnik Domowy;373;Druk i E-wydania;457391,7955
+Przyjaciółka;373;Druk i E-wydania;1133066,072
+Puls Biznesu;373;Druk i E-wydania;241349,8987
+Retro;373;Druk i E-wydania;143316,0956
+Rewia;373;Druk i E-wydania;249422,194
+Rzeczpospolita;373;Druk i E-wydania;477580,3879
+Show;373;Druk i E-wydania;256980,5645
+Sieci;373;Druk i E-wydania;327692,1106
+Sukcesy i Porażki;373;Druk i E-wydania;367090,5862
+Super Express;373;Druk i E-wydania;1176987,626
+Super TV;373;Druk i E-wydania;219319,4422
+Świat & Ludzie;373;Druk i E-wydania;261921,5361
+Świat Kobiety;373;Druk i E-wydania;432433,8395
+Świat Seriali;373;Druk i E-wydania;279478,9038
+Świat Wiedzy;373;Druk i E-wydania;943498,2692
+Tele Magazyn;373;Druk i E-wydania;717925,0748
+Tele Max;373;Druk i E-wydania;188963,2927
+Tele Świat;373;Druk i E-wydania;631016,1662
+Tele Tydzień;373;Druk i E-wydania;2066782,394
+Tina;373;Druk i E-wydania;355590,5425
+To & Owo;373;Druk i E-wydania;564211,9617
+TV14;373;Druk i E-wydania;251624,032
+Twoje Imperium;373;Druk i E-wydania;645813,045
+Twój Styl;373;Druk i E-wydania;1203076,326
+Tygodnik Angora;373;Druk i E-wydania;1464992,699
+Viva;373;Druk i E-wydania;1162921,023
+Wysokie Obcasy (Gazeta Wyborcza);373;Druk i E-wydania;344748,3633
+Z Życia Wzięte;373;Druk i E-wydania;1255833,584
+Zwierciadło;373;Druk i E-wydania;335909,8948
+Życie na Gorąco;373;Druk i E-wydania;1450715,941
+Wysokie Obcasy Extra;373;Druk i E-wydania;500234,0275
+Głos-Dziennik Pomorza;371;www;3 186 702
+Głos-Dziennik Pomorza;371;www Mobile;3 017 736
+Głos-Dziennik Pomorza;371;www PC;289 332
+Głos-Dziennik Pomorza;372;www;3 169 044
+Głos-Dziennik Pomorza;372;www Mobile;3 062 772
+Głos-Dziennik Pomorza;372;www PC;224 532
+Głos-Dziennik Pomorza;373;www;2 945 160
+Głos-Dziennik Pomorza;373;www Mobile;2 808 432
+Głos-Dziennik Pomorza;373;www PC;242 352
+Dziennik Bałtycki;374;www Mobile;109 674
+Dziennik Gazeta Prawna;374;www Mobile;675 378
+Dziennik Łódzki;374;www Mobile;97 200
+Dziennik Polski;374;www Mobile;120 528
+Dziennik Zachodni;374;www Mobile;210 600
+Echo Dnia;374;www Mobile;270 378
+Elle;374;www Mobile;127 818
+Express Bydgoski;374;www Mobile;138 024
+Express Ilustrowany;374;www Mobile;105 786
+Fakt Gazeta Codzienna;374;www Mobile;1 849 878
+Forbes. Profit;374;www Mobile;220 320
+Gazeta Krakowska;374;www Mobile;225 666
+Gazeta Pomorska;374;www Mobile;403 866
+Gazeta Wrocławska;374;www Mobile;298 890
+Gazeta Współczesna;374;www Mobile;29 160
+Gazeta Wyborcza;374;www Mobile;1 144 692
+Glamour;374;www Mobile;75 978
+Głos-Dziennik Pomorza;374;www Mobile;304 884
+Gość Niedzielny;374;www Mobile;105 786
+Kobieta i Życie;374;www Mobile;7 452
+Kurier Lubelski;374;www Mobile;95 418
+Kurier Poranny;374;www Mobile;119 070
+Murator;374;www Mobile;198 774
+Newsweek Polska;374;www Mobile;306 990
+Nowa Trybuna Opolska;374;www Mobile;136 404
+Nowiny;374;www Mobile;203 472
+Nowości - Dziennik Toruński;374;www Mobile;259 524
+Olivia;374;www Mobile;7 452
+Pani Domu;374;www Mobile;7 452
+Parkiet Gazeta Giełdy;374;www Mobile;63 180
+Polityka;374;www Mobile;174 636
+Poradnik 50+;374;www Mobile;7 452
+Poradnik Domowy;374;www Mobile;7 452
+Przyjaciółka;374;www Mobile;7 452
+Puls Biznesu;374;www Mobile;375 030
+Rzeczpospolita;374;www Mobile;656 424
+Sieci;374;www Mobile;263 088
+Super Express;374;www Mobile;607 500
+Świat Kobiety;374;www Mobile;7 452
+Tele Magazyn;374;www Mobile;552 258
+Tina;374;www Mobile;7 452
+Twój Styl;374;www Mobile;49 896
+Viva;374;www Mobile;141 588
+Wysokie Obcasy Extra;374;www Mobile;303 912
+Zwierciadło;374;www Mobile;112 428
+Dziennik Bałtycki;374;www PC;1 130 274
+Dziennik Gazeta Prawna;374;www PC;6 619 968
+Dziennik Łódzki;374;www PC;879 336
+Dziennik Polski;374;www PC;793 152
+Dziennik Zachodni;374;www PC;1 715 256
+Echo Dnia;374;www PC;1 254 042
+Elle;374;www PC;1 332 126
+Express Bydgoski;374;www PC;852 768
+Express Ilustrowany;374;www PC;819 396
+Fakt Gazeta Codzienna;374;www PC;7 855 704
+Forbes. Profit;374;www PC;1 940 274
+Gazeta Krakowska;374;www PC;1 426 734
+Gazeta Pomorska;374;www PC;2 487 834
+Gazeta Wrocławska;374;www PC;1 765 476
+Gazeta Współczesna;374;www PC;267 786
+Gazeta Wyborcza;374;www PC;5 515 452
+Glamour;374;www PC;756 216
+Głos-Dziennik Pomorza;374;www PC;2 561 868
+Gość Niedzielny;374;www PC;208 008
+Kobieta i Życie;374;www PC;60 912
+Kurier Lubelski;374;www PC;675 054
+Kurier Poranny;374;www PC;577 530
+Murator;374;www PC;1 171 422
+Newsweek Polska;374;www PC;2 276 586
+Nowa Trybuna Opolska;374;www PC;1 181 466
+Nowiny;374;www PC;911 898
+Nowości - Dziennik Toruński;374;www PC;985 284
+Olivia;374;www PC;60 912
+Pani Domu;374;www PC;60 912
+Parkiet Gazeta Giełdy;374;www PC;421 362
+Polityka;374;www PC;568 944
+Poradnik 50+;374;www PC;60 912
+Poradnik Domowy;374;www PC;60 912
+Przyjaciółka;374;www PC;60 912
+Puls Biznesu;374;www PC;978 966
+Rzeczpospolita;374;www PC;3 585 708
+Sieci;374;www PC;653 184
+Super Express;374;www PC;5 913 810
+Świat Kobiety;374;www PC;60 912
+Tele Magazyn;374;www PC;2 549 556
+Tina;374;www PC;60 912
+Twój Styl;374;www PC;483 084
+Viva;374;www PC;1 191 186
+Wysokie Obcasy Extra;374;www PC;1 050 894
+Zwierciadło;374;www PC;1 346 382
+Dziennik Bałtycki;374;www;1 222 776
+Dziennik Gazeta Prawna;374;www;6 807 402
+Dziennik Łódzki;374;www;959 364
+Dziennik Polski;374;www;888 894
+Dziennik Zachodni;374;www;1 862 190
+Echo Dnia;374;www;1 451 520
+Elle;374;www;1 424 142
+Express Bydgoski;374;www;969 894
+Express Ilustrowany;374;www;903 636
+Fakt Gazeta Codzienna;374;www;8 201 412
+Forbes. Profit;374;www;2 038 446
+Gazeta Krakowska;374;www;1 583 064
+Gazeta Pomorska;374;www;2 747 520
+Gazeta Wrocławska;374;www;1 963 926
+Gazeta Współczesna;374;www;294 516
+Gazeta Wyborcza;374;www;5 796 360
+Glamour;374;www;823 284
+Głos-Dziennik Pomorza;374;www;2 778 138
+Gość Niedzielny;374;www;311 526
+Kobieta i Życie;374;www;68 202
+Kurier Lubelski;374;www;750 222
+Kurier Poranny;374;www;676 512
+Murator;374;www;1 338 120
+Newsweek Polska;374;www;2 390 796
+Nowa Trybuna Opolska;374;www;1 287 414
+Nowiny;374;www;1 059 804
+Nowości - Dziennik Toruński;374;www;1 210 302
+Olivia;374;www;68 202
+Pani Domu;374;www;68 202
+Parkiet Gazeta Giełdy;374;www;476 118
+Polityka;374;www;729 810
+Poradnik 50+;374;www;68 202
+Poradnik Domowy;374;www;68 202
+Przyjaciółka;374;www;68 202
+Puls Biznesu;374;www;1 275 102
+Rzeczpospolita;374;www;3 840 048
+Sieci;374;www;866 214
+Super Express;374;www;6 060 420
+Świat Kobiety;374;www;68 202
+Tele Magazyn;374;www;2 912 760
+Tina;374;www;68 202
+Twój Styl;374;www;529 092
+Viva;374;www;1 301 832
+Wysokie Obcasy Extra;374;www;1 235 250
+Zwierciadło;374;www;1 429 164
+Dziennik Bałtycki;375;www Mobile;104 166
+Dziennik Gazeta Prawna;375;www Mobile;681 858
+Dziennik Łódzki;375;www Mobile;85 050
+Dziennik Polski;375;www Mobile;125 712
+Dziennik Zachodni;375;www Mobile;154 224
+Echo Dnia;375;www Mobile;227 934
+Elle;375;www Mobile;142 884
+Express Bydgoski;375;www Mobile;181 440
+Express Ilustrowany;375;www Mobile;110 322
+Fakt Gazeta Codzienna;375;www Mobile;1 701 162
+Forbes. Profit;375;www Mobile;136 728
+Gazeta Krakowska;375;www Mobile;198 126
+Gazeta Pomorska;375;www Mobile;363 528
+Gazeta Wrocławska;375;www Mobile;209 304
+Gazeta Współczesna;375;www Mobile;44 874
+Gazeta Wyborcza;375;www Mobile;1 133 028
+Glamour;375;www Mobile;77 274
+Głos-Dziennik Pomorza;375;www Mobile;246 564
+Gość Niedzielny;375;www Mobile;89 100
+Kobieta i Życie;375;www Mobile;4 536
+Kurier Lubelski;375;www Mobile;100 602
+Kurier Poranny;375;www Mobile;119 232
+Murator;375;www Mobile;214 974
+Newsweek Polska;375;www Mobile;277 182
+Nowa Trybuna Opolska;375;www Mobile;116 640
+Nowiny;375;www Mobile;162 648
+Nowości - Dziennik Toruński;375;www Mobile;255 636
+Olivia;375;www Mobile;4 536
+Pani Domu;375;www Mobile;4 536
+Parkiet Gazeta Giełdy;375;www Mobile;56 052
+Polityka;375;www Mobile;167 346
+Poradnik 50+;375;www Mobile;4 536
+Poradnik Domowy;375;www Mobile;4 536
+Przyjaciółka;375;www Mobile;4 536
+Puls Biznesu;375;www Mobile;372 600
+Rzeczpospolita;375;www Mobile;648 000
+Sieci;375;www Mobile;305 856
+Super Express;375;www Mobile;620 622
+Świat Kobiety;375;www Mobile;4 536
+Tele Magazyn;375;www Mobile;452 628
+Tina;375;www Mobile;4 536
+Twój Styl;375;www Mobile;23 976
+Viva;375;www Mobile;185 166
+Wysokie Obcasy Extra;375;www Mobile;279 126
+Zwierciadło;375;www Mobile;148 554
+Dziennik Bałtycki;375;www PC;829 602
+Dziennik Gazeta Prawna;375;www PC;7 402 590
+Dziennik Łódzki;375;www PC;840 456
+Dziennik Polski;375;www PC;698 058
+Dziennik Zachodni;375;www PC;1 573 020
+Echo Dnia;375;www PC;1 684 800
+Elle;375;www PC;1 573 506
+Express Bydgoski;375;www PC;861 840
+Express Ilustrowany;375;www PC;892 782
+Fakt Gazeta Codzienna;375;www PC;7 951 608
+Forbes. Profit;375;www PC;1 228 446
+Gazeta Krakowska;375;www PC;1 281 744
+Gazeta Pomorska;375;www PC;2 568 024
+Gazeta Wrocławska;375;www PC;1 586 628
+Gazeta Współczesna;375;www PC;481 140
+Gazeta Wyborcza;375;www PC;5 583 168
+Glamour;375;www PC;917 082
+Głos-Dziennik Pomorza;375;www PC;2 788 020
+Gość Niedzielny;375;www PC;162 972
+Kobieta i Życie;375;www PC;68 850
+Kurier Lubelski;375;www PC;708 426
+Kurier Poranny;375;www PC;647 514
+Murator;375;www PC;1 160 406
+Newsweek Polska;375;www PC;1 881 954
+Nowa Trybuna Opolska;375;www PC;1 160 568
+Nowiny;375;www PC;934 740
+Nowości - Dziennik Toruński;375;www PC;1 010 556
+Olivia;375;www PC;68 850
+Pani Domu;375;www PC;68 850
+Parkiet Gazeta Giełdy;375;www PC;759 456
+Polityka;375;www PC;446 634
+Poradnik 50+;375;www PC;68 850
+Poradnik Domowy;375;www PC;68 850
+Przyjaciółka;375;www PC;68 850
+Puls Biznesu;375;www PC;879 984
+Rzeczpospolita;375;www PC;3 359 394
+Sieci;375;www PC;657 072
+Super Express;375;www PC;6 304 230
+Świat Kobiety;375;www PC;68 850
+Tele Magazyn;375;www PC;2 879 550
+Tina;375;www PC;68 850
+Twój Styl;375;www PC;402 084
+Viva;375;www PC;1 246 266
+Wysokie Obcasy Extra;375;www PC;1 244 808
+Zwierciadło;375;www PC;1 480 518
+Dziennik Bałtycki;375;www;912 060
+Dziennik Gazeta Prawna;375;www;7 561 512
+Dziennik Łódzki;375;www;902 988
+Dziennik Polski;375;www;788 778
+Dziennik Zachodni;375;www;1 642 842
+Echo Dnia;375;www;1 814 886
+Elle;375;www;1 657 260
+Express Bydgoski;375;www;997 434
+Express Ilustrowany;375;www;972 162
+Fakt Gazeta Codzienna;375;www;8 185 698
+Forbes. Profit;375;www;1 311 876
+Gazeta Krakowska;375;www;1 399 032
+Gazeta Pomorska;375;www;2 740 230
+Gazeta Wrocławska;375;www;1 690 308
+Gazeta Współczesna;375;www;516 942
+Gazeta Wyborcza;375;www;5 829 246
+Glamour;375;www;982 854
+Głos-Dziennik Pomorza;375;www;2 923 776
+Gość Niedzielny;375;www;250 452
+Kobieta i Życie;375;www;73 386
+Kurier Lubelski;375;www;788 292
+Kurier Poranny;375;www;740 016
+Murator;375;www;1 335 366
+Newsweek Polska;375;www;2 002 806
+Nowa Trybuna Opolska;375;www;1 227 312
+Nowiny;375;www;1 030 158
+Nowości - Dziennik Toruński;375;www;1 212 732
+Olivia;375;www;73 386
+Pani Domu;375;www;73 386
+Parkiet Gazeta Giełdy;375;www;806 436
+Polityka;375;www;596 646
+Poradnik 50+;375;www;73 386
+Poradnik Domowy;375;www;73 386
+Przyjaciółka;375;www;73 386
+Puls Biznesu;375;www;1 198 638
+Rzeczpospolita;375;www;3 648 402
+Sieci;375;www;917 568
+Super Express;375;www;6 423 948
+Świat Kobiety;375;www;73 386
+Tele Magazyn;375;www;3 048 192
+Tina;375;www;73 386
+Twój Styl;375;www;424 278
+Viva;375;www;1 387 206
+Wysokie Obcasy Extra;375;www;1 413 450
+Zwierciadło;375;www;1 586 952
+Dziennik Bałtycki;376;www Mobile;104 004
+Dziennik Gazeta Prawna;376;www Mobile;701 136
+Dziennik Łódzki;376;www Mobile;87 804
+Dziennik Polski;376;www Mobile;120 852
+Dziennik Zachodni;376;www Mobile;188 568
+Echo Dnia;376;www Mobile;246 402
+Elle;376;www Mobile;132 516
+Express Bydgoski;376;www Mobile;193 590
+Express Ilustrowany;376;www Mobile;106 758
+Fakt Gazeta Codzienna;376;www Mobile;1 575 450
+Forbes. Profit;376;www Mobile;214 164
+Gazeta Krakowska;376;www Mobile;231 012
+Gazeta Pomorska;376;www Mobile;389 610
+Gazeta Wrocławska;376;www Mobile;247 698
+Gazeta Współczesna;376;www Mobile;24 948
+Gazeta Wyborcza;376;www Mobile;1 132 704
+Glamour;376;www Mobile;78 246
+Głos-Dziennik Pomorza;376;www Mobile;324 486
+Gość Niedzielny;376;www Mobile;77 598
+Kobieta i Życie;376;www Mobile;6 318
+Kurier Lubelski;376;www Mobile;92 502
+Kurier Poranny;376;www Mobile;132 030
+Murator;376;www Mobile;162 324
+Newsweek Polska;376;www Mobile;242 676
+Nowa Trybuna Opolska;376;www Mobile;140 292
+Nowiny;376;www Mobile;177 228
+Nowości - Dziennik Toruński;376;www Mobile;186 138
+Olivia;376;www Mobile;6 318
+Pani Domu;376;www Mobile;6 318
+Parkiet Gazeta Giełdy;376;www Mobile;47 304
+Polityka;376;www Mobile;157 464
+Poradnik 50+;376;www Mobile;6 318
+Poradnik Domowy;376;www Mobile;6 318
+Przyjaciółka;376;www Mobile;6 318
+Puls Biznesu;376;www Mobile;370 818
+Rzeczpospolita;376;www Mobile;711 666
+Sieci;376;www Mobile;219 672
+Super Express;376;www Mobile;636 012
+Świat Kobiety;376;www Mobile;6 318
+Tele Magazyn;376;www Mobile;443 880
+Tina;376;www Mobile;6 318
+Twój Styl;376;www Mobile;59 292
+Viva;376;www Mobile;161 190
+Wysokie Obcasy Extra;376;www Mobile;266 166
+Zwierciadło;376;www Mobile;154 548
+Dziennik Bałtycki;376;www PC;1 108 242
+Dziennik Gazeta Prawna;376;www PC;7 006 662
+Dziennik Łódzki;376;www PC;1 151 010
+Dziennik Polski;376;www PC;706 644
+Dziennik Zachodni;376;www PC;1 883 412
+Echo Dnia;376;www PC;1 236 708
+Elle;376;www PC;1 562 490
+Express Bydgoski;376;www PC;1 099 818
+Express Ilustrowany;376;www PC;1 077 300
+Fakt Gazeta Codzienna;376;www PC;8 365 032
+Forbes. Profit;376;www PC;1 452 330
+Gazeta Krakowska;376;www PC;1 530 252
+Gazeta Pomorska;376;www PC;2 232 684
+Gazeta Wrocławska;376;www PC;1 860 570
+Gazeta Współczesna;376;www PC;299 214
+Gazeta Wyborcza;376;www PC;6 167 016
+Glamour;376;www PC;943 002
+Głos-Dziennik Pomorza;376;www PC;2 770 362
+Gość Niedzielny;376;www PC;157 140
+Kobieta i Życie;376;www PC;66 582
+Kurier Lubelski;376;www PC;625 320
+Kurier Poranny;376;www PC;603 612
+Murator;376;www PC;1 492 992
+Newsweek Polska;376;www PC;1 820 880
+Nowa Trybuna Opolska;376;www PC;1 185 354
+Nowiny;376;www PC;1 002 294
+Nowości - Dziennik Toruński;376;www PC;1 656 936
+Olivia;376;www PC;66 582
+Pani Domu;376;www PC;66 582
+Parkiet Gazeta Giełdy;376;www PC;300 834
+Polityka;376;www PC;288 198
+Poradnik 50+;376;www PC;66 582
+Poradnik Domowy;376;www PC;66 582
+Przyjaciółka;376;www PC;66 582
+Puls Biznesu;376;www PC;1 026 108
+Rzeczpospolita;376;www PC;3 409 938
+Sieci;376;www PC;771 930
+Super Express;376;www PC;6 433 668
+Świat Kobiety;376;www PC;66 582
+Tele Magazyn;376;www PC;2 660 364
+Tina;376;www PC;66 582
+Twój Styl;376;www PC;517 914
+Viva;376;www PC;1 183 734
+Wysokie Obcasy Extra;376;www PC;1 305 396
+Zwierciadło;376;www PC;1 652 886
+Dziennik Bałtycki;376;www;1 185 678
+Dziennik Gazeta Prawna;376;www;7 175 952
+Dziennik Łódzki;376;www;1 213 542
+Dziennik Polski;376;www;795 096
+Dziennik Zachodni;376;www;1 956 474
+Echo Dnia;376;www;1 383 804
+Elle;376;www;1 644 624
+Express Bydgoski;376;www;1 228 770
+Express Ilustrowany;376;www;1 147 608
+Fakt Gazeta Codzienna;376;www;8 552 304
+Forbes. Profit;376;www;1 572 696
+Gazeta Krakowska;376;www;1 665 846
+Gazeta Pomorska;376;www;2 429 190
+Gazeta Wrocławska;376;www;1 970 244
+Gazeta Współczesna;376;www;322 218
+Gazeta Wyborcza;376;www;6 378 588
+Glamour;376;www;1 009 584
+Głos-Dziennik Pomorza;376;www;2 945 808
+Gość Niedzielny;376;www;233 280
+Kobieta i Życie;376;www;72 900
+Kurier Lubelski;376;www;699 192
+Kurier Poranny;376;www;706 968
+Murator;376;www;1 616 598
+Newsweek Polska;376;www;1 920 834
+Nowa Trybuna Opolska;376;www;1 262 628
+Nowiny;376;www;1 115 532
+Nowości - Dziennik Toruński;376;www;1 778 436
+Olivia;376;www;72 900
+Pani Domu;376;www;72 900
+Parkiet Gazeta Giełdy;376;www;345 222
+Polityka;376;www;438 210
+Poradnik 50+;376;www;72 900
+Poradnik Domowy;376;www;72 900
+Przyjaciółka;376;www;72 900
+Puls Biznesu;376;www;1 325 808
+Rzeczpospolita;376;www;3 764 880
+Sieci;376;www;959 688
+Super Express;376;www;6 559 542
+Świat Kobiety;376;www;72 900
+Tele Magazyn;376;www;2 821 068
+Tina;376;www;72 900
+Twój Styl;376;www;574 938
+Viva;376;www;1 303 290
+Wysokie Obcasy Extra;376;www;1 464 642
+Zwierciadło;376;www;1 761 912
+100 Rad;374;Druk i E-wydania;372594
+Cała Ty;374;Druk i E-wydania;196786
+Chwila dla Ciebie;374;Druk i E-wydania;1314362
+Dobry Tydzień;374;Druk i E-wydania;320171
+Dziennik Bałtycki;374;Druk i E-wydania;75324
+Dziennik Gazeta Prawna;374;Druk i E-wydania;537898
+Dziennik Łódzki;374;Druk i E-wydania;97319
+Dziennik Polski;374;Druk i E-wydania;50528
+Dziennik Zachodni;374;Druk i E-wydania;231566
+Echo Dnia;374;Druk i E-wydania;260305
+Elle;374;Druk i E-wydania;326646
+Express Bydgoski;374;Druk i E-wydania;85783
+Express Ilustrowany;374;Druk i E-wydania;48274
+Fakt Gazeta Codzienna;374;Druk i E-wydania;1370724
+Forbes. Profit;374;Druk i E-wydania;381179
+Gazeta Krakowska;374;Druk i E-wydania;89895
+Gazeta Pomorska;374;Druk i E-wydania;57774
+Gazeta Wrocławska;374;Druk i E-wydania;248411
+Gazeta Współczesna;374;Druk i E-wydania;40142
+Gazeta Wyborcza;374;Druk i E-wydania;1116022
+Glamour;374;Druk i E-wydania;624293
+Głos Wielkopolski;374;Druk i E-wydania;113132
+Gość Niedzielny;374;Druk i E-wydania;549965
+Kobieta i Życie;374;Druk i E-wydania;649610
+Kurier Lubelski;374;Druk i E-wydania;55223
+Kurier Poranny;374;Druk i E-wydania;59361
+Magazyn Telewizyjny Kurier TV;374;Druk i E-wydania;199688
+Mam Ogród;374;Druk i E-wydania;325676
+Motor;374;Druk i E-wydania;370577
+Murator;374;Druk i E-wydania;409084
+Na Żywo;374;Druk i E-wydania;442064
+Newsweek Polska;374;Druk i E-wydania;1170595
+Nostalgia;374;Druk i E-wydania;115603
+Nowa Trybuna Opolska;374;Druk i E-wydania;34968
+Nowiny;374;Druk i E-wydania;85894
+Nowości - Dziennik Toruński;374;Druk i E-wydania;5618
+Olivia;374;Druk i E-wydania;574127
+Pani;374;Druk i E-wydania;344261
+Pani Domu;374;Druk i E-wydania;783905
+Parkiet Gazeta Giełdy;374;Druk i E-wydania;92005
+Polityka;374;Druk i E-wydania;673678
+Poradnik 50+;374;Druk i E-wydania;236057
+Poradnik Domowy;374;Druk i E-wydania;479702
+Przyjaciółka;374;Druk i E-wydania;871916
+Puls Biznesu;374;Druk i E-wydania;181553
+Retro;374;Druk i E-wydania;131792
+Rewia;374;Druk i E-wydania;262978
+Rzeczpospolita;374;Druk i E-wydania;302865
+Show;374;Druk i E-wydania;290547
+Sieci;374;Druk i E-wydania;188174
+Sukcesy i Porażki;374;Druk i E-wydania;241557
+Super Express;374;Druk i E-wydania;945092
+Super TV;374;Druk i E-wydania;263310
+Świat & Ludzie;374;Druk i E-wydania;253439
+Świat Kobiety;374;Druk i E-wydania;757937
+Świat Seriali;374;Druk i E-wydania;480771
+Świat Wiedzy;374;Druk i E-wydania;1009860
+Tele Magazyn;374;Druk i E-wydania;614285
+Tele Max;374;Druk i E-wydania;366511
+Tele Świat;374;Druk i E-wydania;563890
+Tele Tydzień;374;Druk i E-wydania;2163610
+Tina;374;Druk i E-wydania;405899
+To & Owo;374;Druk i E-wydania;614617
+TV14;374;Druk i E-wydania;153300
+Twoje Imperium;374;Druk i E-wydania;583078
+Twój Styl;374;Druk i E-wydania;924947
+Tygodnik Angora;374;Druk i E-wydania;1399931
+Viva;374;Druk i E-wydania;1360904
+Wysokie Obcasy (Gazeta Wyborcza);374;Druk i E-wydania;573790
+Z Życia Wzięte;374;Druk i E-wydania;645800
+Zwierciadło;374;Druk i E-wydania;525154
+Życie na Gorąco;374;Druk i E-wydania;1692607
+Wysokie Obcasy Extra;374;Druk i E-wydania;536617
+100 Rad;375;Druk i E-wydania;250408
+Cała Ty;375;Druk i E-wydania;271376
+Chwila dla Ciebie;375;Druk i E-wydania;1220653
+Dobry Tydzień;375;Druk i E-wydania;171239
+Dziennik Bałtycki;375;Druk i E-wydania;89224
+Dziennik Gazeta Prawna;375;Druk i E-wydania;500012
+Dziennik Łódzki;375;Druk i E-wydania;148416
+Dziennik Polski;375;Druk i E-wydania;110025
+Dziennik Zachodni;375;Druk i E-wydania;80964
+Echo Dnia;375;Druk i E-wydania;134448
+Elle;375;Druk i E-wydania;96529
+Express Bydgoski;375;Druk i E-wydania;54177
+Express Ilustrowany;375;Druk i E-wydania;89155
+Fakt Gazeta Codzienna;375;Druk i E-wydania;1617163
+Forbes. Profit;375;Druk i E-wydania;369642
+Gazeta Krakowska;375;Druk i E-wydania;85755
+Gazeta Lubuska;375;Druk i E-wydania;43906
+Gazeta Pomorska;375;Druk i E-wydania;397358
+Gazeta Wrocławska;375;Druk i E-wydania;103020
+Gazeta Współczesna;375;Druk i E-wydania;69527
+Gazeta Wyborcza;375;Druk i E-wydania;1338209
+Glamour;375;Druk i E-wydania;561160
+Głos Wielkopolski;375;Druk i E-wydania;79473
+Głos-Dziennik Pomorza;375;Druk i E-wydania;126431
+Gość Niedzielny;375;Druk i E-wydania;644481
+Kobieta i Życie;375;Druk i E-wydania;431122
+Kurier Lubelski;375;Druk i E-wydania;132054
+Kurier Poranny;375;Druk i E-wydania;75514
+Magazyn Telewizyjny Kurier TV;375;Druk i E-wydania;252893
+Mam Ogród;375;Druk i E-wydania;257468
+Motor;375;Druk i E-wydania;439579
+Murator;375;Druk i E-wydania;358256
+Na Żywo;375;Druk i E-wydania;371671
+Newsweek Polska;375;Druk i E-wydania;1021424
+Nostalgia;375;Druk i E-wydania;104671
+Nowa Trybuna Opolska;375;Druk i E-wydania;71622
+Nowiny;375;Druk i E-wydania;90663
+Nowości - Dziennik Toruński;375;Druk i E-wydania;34700
+Olivia;375;Druk i E-wydania;448039
+Pani;375;Druk i E-wydania;367737
+Pani Domu;375;Druk i E-wydania;687958
+Parkiet Gazeta Giełdy;375;Druk i E-wydania;161083
+Polityka;375;Druk i E-wydania;821425
+Polska Metropolia Warszawska;375;Druk i E-wydania;42040
+Poradnik 50+;375;Druk i E-wydania;229231
+Poradnik Domowy;375;Druk i E-wydania;552625
+Przyjaciółka;375;Druk i E-wydania;820216
+Puls Biznesu;375;Druk i E-wydania;203364
+Retro;375;Druk i E-wydania;90111
+Rewia;375;Druk i E-wydania;284160
+Rzeczpospolita;375;Druk i E-wydania;401223
+Show;375;Druk i E-wydania;347186
+Sieci;375;Druk i E-wydania;158792
+Sukcesy i Porażki;375;Druk i E-wydania;387981
+Super Express;375;Druk i E-wydania;1034464
+Super TV;375;Druk i E-wydania;315594
+Świat & Ludzie;375;Druk i E-wydania;191606
+Świat Kobiety;375;Druk i E-wydania;516286
+Świat Seriali;375;Druk i E-wydania;345235
+Świat Wiedzy;375;Druk i E-wydania;1057989
+Tele Magazyn;375;Druk i E-wydania;972054
+Tele Max;375;Druk i E-wydania;303817
+Tele Świat;375;Druk i E-wydania;566360
+Tele Tydzień;375;Druk i E-wydania;2293128
+Tina;375;Druk i E-wydania;465274
+To & Owo;375;Druk i E-wydania;633573
+TV14;375;Druk i E-wydania;222770
+Twoje Imperium;375;Druk i E-wydania;508742
+Twój Styl;375;Druk i E-wydania;879137
+Tygodnik Angora;375;Druk i E-wydania;1535000
+Viva;375;Druk i E-wydania;993229
+Wysokie Obcasy (Gazeta Wyborcza);375;Druk i E-wydania;432557
+Z Życia Wzięte;375;Druk i E-wydania;883760
+Zwierciadło;375;Druk i E-wydania;390751
+Życie na Gorąco;375;Druk i E-wydania;1222862
+Wysokie Obcasy Extra;375;Druk i E-wydania;535540
+100 Rad;376;Druk i E-wydania;349788
+Cała Ty;376;Druk i E-wydania;93753
+Chwila dla Ciebie;376;Druk i E-wydania;1030897
+Dobry Tydzień;376;Druk i E-wydania;178476
+Dziennik Bałtycki;376;Druk i E-wydania;64790
+Dziennik Gazeta Prawna;376;Druk i E-wydania;531000
+Dziennik Łódzki;376;Druk i E-wydania;237497
+Dziennik Polski;376;Druk i E-wydania;53739
+Dziennik Zachodni;376;Druk i E-wydania;79125
+Echo Dnia;376;Druk i E-wydania;188399
+Elle;376;Druk i E-wydania;272327
+Express Bydgoski;376;Druk i E-wydania;121265
+Express Ilustrowany;376;Druk i E-wydania;62262
+Fakt Gazeta Codzienna;376;Druk i E-wydania;1320236
+Forbes. Profit;376;Druk i E-wydania;346709
+Gazeta Krakowska;376;Druk i E-wydania;56725
+Gazeta Lubuska;376;Druk i E-wydania;14204
+Gazeta Pomorska;376;Druk i E-wydania;149482
+Gazeta Wrocławska;376;Druk i E-wydania;90151
+Gazeta Współczesna;376;Druk i E-wydania;81527
+Gazeta Wyborcza;376;Druk i E-wydania;1171849
+Glamour;376;Druk i E-wydania;784608
+Głos Wielkopolski;376;Druk i E-wydania;154338
+Głos-Dziennik Pomorza;376;Druk i E-wydania;52494
+Gość Niedzielny;376;Druk i E-wydania;423084
+Kobieta i Życie;376;Druk i E-wydania;560414
+Kurier Lubelski;376;Druk i E-wydania;73214
+Kurier Poranny;376;Druk i E-wydania;73321
+Magazyn Telewizyjny Kurier TV;376;Druk i E-wydania;235776
+Mam Ogród;376;Druk i E-wydania;345389
+Motor;376;Druk i E-wydania;341837
+Murator;376;Druk i E-wydania;379779
+Na Żywo;376;Druk i E-wydania;470231
+Newsweek Polska;376;Druk i E-wydania;1312918
+Nostalgia;376;Druk i E-wydania;98060
+Nowa Trybuna Opolska;376;Druk i E-wydania;57041
+Nowiny;376;Druk i E-wydania;124808
+Nowości - Dziennik Toruński;376;Druk i E-wydania;22427
+Olivia;376;Druk i E-wydania;437612
+Pani;376;Druk i E-wydania;427176
+Pani Domu;376;Druk i E-wydania;705796
+Parkiet Gazeta Giełdy;376;Druk i E-wydania;69016
+Polityka;376;Druk i E-wydania;561091
+Polska Metropolia Warszawska;376;Druk i E-wydania;44660
+Poradnik 50+;376;Druk i E-wydania;196914
+Poradnik Domowy;376;Druk i E-wydania;667233
+Przyjaciółka;376;Druk i E-wydania;830757
+Puls Biznesu;376;Druk i E-wydania;149842
+Retro;376;Druk i E-wydania;123795
+Rewia;376;Druk i E-wydania;274202
+Rzeczpospolita;376;Druk i E-wydania;300920
+Show;376;Druk i E-wydania;332397
+Sieci;376;Druk i E-wydania;192208
+Sukcesy i Porażki;376;Druk i E-wydania;325445
+Super Express;376;Druk i E-wydania;1153516
+Super TV;376;Druk i E-wydania;290058
+Świat & Ludzie;376;Druk i E-wydania;191565
+Świat Kobiety;376;Druk i E-wydania;424785
+Świat Seriali;376;Druk i E-wydania;372752
+Świat Wiedzy;376;Druk i E-wydania;878123
+Tele Magazyn;376;Druk i E-wydania;1035031
+Tele Max;376;Druk i E-wydania;180640
+Tele Świat;376;Druk i E-wydania;513441
+Tele Tydzień;376;Druk i E-wydania;2077937
+Tina;376;Druk i E-wydania;431205
+To & Owo;376;Druk i E-wydania;556541
+TV14;376;Druk i E-wydania;254983
+Twoje Imperium;376;Druk i E-wydania;620000
+Twój Styl;376;Druk i E-wydania;636792
+Tygodnik Angora;376;Druk i E-wydania;1667553
+Viva;376;Druk i E-wydania;1068732
+Wysokie Obcasy (Gazeta Wyborcza);376;Druk i E-wydania;310047
+Z Życia Wzięte;376;Druk i E-wydania;798364
+Zwierciadło;376;Druk i E-wydania;513624
+Życie na Gorąco;376;Druk i E-wydania;1378946
+Wysokie Obcasy Extra;376;Druk i E-wydania;544932
