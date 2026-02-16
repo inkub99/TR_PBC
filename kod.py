@@ -12,6 +12,39 @@ st.set_page_config(
     layout="wide",
 )
 
+st.markdown("""
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* Globalnie Montserrat */
+html, body, [data-testid="stApp"] * {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+/* Gradient paska */
+div[data-testid="stDecoration"]{
+  background-image:none !important;
+  background:none !important;
+}
+
+/* Kolor nagłówka (tekst + ikony) */
+[data-testid="stAppViewContainer"] header[data-testid="stHeader"],
+[data-testid="stAppViewContainer"] header[data-testid="stHeader"] *,
+[data-testid="stHeader"] .stActionButton *,
+[data-testid="stHeader"] button[kind="header"],
+[data-testid="stHeader"] button[kind="header"] *,
+[data-testid="stHeader"] svg, 
+[data-testid="stHeader"] svg * {
+  color:#273F4A !important;
+  fill:#273F4A !important;
+}
+
+main.block-container { padding-top: .5rem !important; }
+</style>
+""", unsafe_allow_html=True)
+
+
 pd.set_option('display.float_format', '{:.0f}'.format)
 
 
@@ -29,7 +62,7 @@ strony = pd.read_excel('strony.xlsx')
 tematyka_legenda_dict = dict(zip(strony['Pismo'], strony['Strona']))
 wydawca_legenda_dict = dict(zip(tematyka['tytuł'], tematyka['wydawca']))
 
-st.markdown("<h1 style='margin-top: -70px; text-align: center;'>Total Reach 360°</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='margin-top: -70px;'>Total Reach 360°</h1>", unsafe_allow_html=True)
 
 selected_miesiace = [365,366,367,368,369,370,371,372,373,374,375,376]
 
@@ -285,17 +318,19 @@ html_table = f"<div style='margin: auto;'>{html_table}</div>"
 
 styled_table = f"""
 <style>
-    table {{
-        width: 100%;
-        margin: auto;
-        overflow-x: auto;
-    }}
-    th, td {{
-        padding: 10px;
-        text-align: left;
-        border: 1px solid #ddd;
-        white-space: nowrap;  /* Unikaj przerywania tekstu na wielu linijkach */
-    }}
+  table {{
+    width: 100%;
+    margin: auto;
+    border: 1px solid #EBEBEB !important;
+    border-radius: 10px !important;
+    overflow: hidden;
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+  }}
+  th, td {{ border: 1px solid #EBEBEB; padding: 10px; white-space: nowrap; color:#5E6781; }}
+  .st-emotion-cache-17b17hr th, .st-emotion-cache-17b17hr td {{
+      border: 1px solid #EBEBEB;
+  }}
 </style>
 {html_table}
 """
@@ -310,17 +345,17 @@ for pismo in wyniki.index.unique():
     except:
         pass
 
-st.markdown(f"""<div style="font-size:12px">Statystyki: Zasięg CCS i Estymacja na populację, Populacja w wybranej grupie celowej =  {suma}</div>""", unsafe_allow_html=True)
+st.markdown(f"""<div style="font-size:12px; color: #5E6781; margin-top: 25px;">Statystyki: Zasięg CCS i Estymacja na populację, Populacja w wybranej grupie celowej =  {suma}</div>""", unsafe_allow_html=True)
 
 st.markdown("""<div style="font-size:12px">Fale: 01/2025-12/2025</div>""", unsafe_allow_html=True)
 
 
-st.markdown("""<div style="font-size:12px">Dane CCS: Druk, E-wydania, Współczytelnictwo – Badanie PBC „Zanagażowanie w reklamę” ,
+st.markdown("""<div style="font-size:12px; color: #5E6781;">Dane CCS: Druk, E-wydania, Współczytelnictwo – Badanie PBC „Zanagażowanie w reklamę” ,
 www, www PC, www mobile – Real Users (RU) PBI/Gemius</div>""", unsafe_allow_html=True)
             
-st.markdown(f"""<div style="font-size:12px">{tekst}</div>""", unsafe_allow_html=True)
+st.markdown(f"""<div style="font-size:12px; color: #5E6781;">{tekst}</div>""", unsafe_allow_html=True)
 
-st.markdown("""<div style="font-size:12px">Definicje: www.pbc.pl/wskazniki/</div>""", unsafe_allow_html=True)
+st.markdown("""<div style="font-size:12px; color: #5E6781;">Definicje: www.pbc.pl/wskazniki/</div>""", unsafe_allow_html=True)
 
 plik_wejsciowy = "szablon.xlsx"
 arkusz = openpyxl.load_workbook(plik_wejsciowy)
@@ -358,5 +393,56 @@ st.download_button(
     label="Zapisz raport do pliku",
     data=open(plik_wyjsciowy, 'rb').read(),
     file_name=plik_wyjsciowy,
-    mime="application/vnd.ms-excel"
+    mime="application/vnd.ms-excel",
 )
+
+st.markdown("""
+<style>
+/* Główna baza stylu przycisku */
+.stDownloadButton button {
+    display: inline-block;
+    position: relative;
+    padding: 14px 20px;
+    font-size: 12px;
+    border: 1.5px solid transparent;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: fit-content;
+    box-sizing: border-box;
+    border-color: #0FA8E1;
+    color: #0FA8E1;
+    background: transparent;
+    margin-top: 30px;
+}
+
+/* Strzałka */
+.stDownloadButton button::after {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-left: 0.5em;
+    transform: translateY(0.15em);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15.416 6.58614L12.3587 3.52881L11.416 4.47148L14.2573 7.31348L0 7.33348V8.66681L14.2973 8.64681L11.4153 11.5288L12.358 12.4715L15.416 9.41414C15.7898 9.03848 15.9996 8.53009 15.9996 8.00014C15.9996 7.47019 15.7898 6.9618 15.416 6.58614Z' fill='%230FA8E1'/%3E%3C/svg%3E");
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover efekt */
+.stDownloadButton button:hover {
+    background-color: #0FA8E1;
+    color: white;
+}
+.stDownloadButton button:hover::after {
+    filter: brightness(0) invert(1);
+    transform: translateY(0.15em) translateX(5px);
+}
+</style>
+""", unsafe_allow_html=True)
