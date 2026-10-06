@@ -347,7 +347,7 @@ for pismo in wyniki.index.unique():
 
 st.markdown(f"""<div style="font-size:12px; color: #5E6781; margin-top: 25px;">Statystyki: Zasięg CCS i Estymacja na populację, Populacja w wybranej grupie celowej =  {suma}</div>""", unsafe_allow_html=True)
 
-st.markdown("""<div style="font-size:12px">Fale: 0/2025-06/2026</div>""", unsafe_allow_html=True)
+st.markdown("""<div style="font-size:12px">Fale: 7/2025-06/2026</div>""", unsafe_allow_html=True)
 
 
 st.markdown("""<div style="font-size:12px; color: #5E6781;">Dane CCS: Druk, E-wydania, Współczytelnictwo – Badanie PBC „Zanagażowanie w reklamę” ,
